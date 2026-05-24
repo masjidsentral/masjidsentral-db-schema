@@ -4,6 +4,8 @@ Scripts for merging both apps' masjid data into MasjidDB.
 
 Uses `ngeohash` (Node.js) to ensure geohash values are consistent with both apps.
 
+---
+
 ## Setup
 
 ```bash
@@ -13,9 +15,33 @@ npm install
 
 ---
 
-## Step 1 — Partner: add_geohash.js
+## Cloudflare Login
 
-Run this if your CSV export does not have a `geohash` column.
+Both parties need Wrangler installed and authenticated before importing data.
+
+```bash
+# Install Wrangler globally (if not already installed)
+npm install -g wrangler
+
+# Login — opens browser, select the Masjidsentral Cloudflare account
+wrangler login
+
+# Verify you are on the correct account
+wrangler whoami
+```
+
+> If you have multiple Cloudflare accounts, set the account explicitly:
+> ```bash
+> export CLOUDFLARE_ACCOUNT_ID=7e72c27f3de3f130ec221a937ac22557
+> ```
+
+---
+
+## Full Workflow
+
+### Step 1 — Partner (Qiyam): Add geohash
+
+Run this on your CSV export if it does not have a `geohash` column.
 
 **Required CSV columns:** `name`, `lat`, `lng`
 
@@ -23,15 +49,39 @@ Run this if your CSV export does not have a `geohash` column.
 node add_geohash.js your_export.csv your_export_with_geohash.csv
 ```
 
-Send the output CSV to Jejak Masjid for insertion into MasjidDB.
+---
+
+### Step 2 — Partner (Qiyam): Convert CSV to SQL
+
+```bash
+node import_to_d1.js your_export_with_geohash.csv qiyam_import.sql qiyam
+```
+
+> The third argument (`qiyam`) is written into the `source` column for every record.
+
+Review `qiyam_import.sql` before running. Then import:
+
+```bash
+wrangler d1 execute masjidsentral --remote --file=qiyam_import.sql
+```
 
 ---
 
-## Step 2 — Jejak Masjid: deduplicate.js
+### Step 3 — Jejak Masjid: Export existing DB for dedup reference
 
-Run this AFTER partner data has been inserted into the DB.
+Export the current MasjidDB records (after partner insert) to a CSV:
+
+```bash
+wrangler d1 export masjidsentral --remote --output=existing_db.csv \
+  --sql="SELECT id, name, lat, lng, geohash FROM masjids"
+```
+
+---
+
+### Step 4 — Jejak Masjid: Deduplicate
 
 **Required CSV columns:** `name`, `lat`, `lng`, `geohash`
+(Run `add_geohash.js` first if your export is missing the geohash column)
 
 ```bash
 node deduplicate.js jejak_masjid_export.csv existing_db.csv
@@ -44,7 +94,7 @@ node deduplicate.js jejak_masjid_export.csv existing_db.csv
 | `new_records.csv` | Safe to insert — no match found |
 | `needs_review.csv` | Ambiguous — review manually before inserting |
 
-**Review columns in `needs_review.csv`:**
+Review columns added to `needs_review.csv`:
 
 | Column | Meaning |
 |---|---|
@@ -52,6 +102,42 @@ node deduplicate.js jejak_masjid_export.csv existing_db.csv
 | `_match_lat/lng` | Coordinates of the matched record |
 | `_distance_m` | Distance in metres between the two records |
 | `_name_similarity` | Jaro-Winkler score (0–1, higher = more similar) |
+
+---
+
+### Step 5 — Jejak Masjid: Import clean records
+
+```bash
+node import_to_d1.js new_records.csv jejak_masjid_import.sql jejak_masjid
+```
+
+Review `jejak_masjid_import.sql`, then import:
+
+```bash
+wrangler d1 execute masjidsentral --remote --file=jejak_masjid_import.sql
+```
+
+---
+
+## import_to_d1.js — CSV Column Reference
+
+| Column | Required | Notes |
+|---|---|---|
+| `name` | Yes | Primary Malay name |
+| `lat` | Yes | Latitude |
+| `lng` | Yes | Longitude |
+| `geohash` | Yes | Run `add_geohash.js` first |
+| `state` | Yes | e.g. `Selangor`, `Kuala Lumpur`, `Johor` |
+| `type` | No | `masjid`, `surau`, or `musolla` — defaults to `masjid` |
+| `city` | No | City or town name |
+| `country` | No | Defaults to `MY` |
+| `address` | No | Street address |
+| `description` | No | Short description |
+| `jumaat_available` | No | `1` or `0` — defaults to `0` |
+| `telephone` | No | |
+| `email` | No | |
+| `google_url` | No | Google Maps URL |
+| `source` | No | Overridden by the third CLI argument |
 
 ---
 
