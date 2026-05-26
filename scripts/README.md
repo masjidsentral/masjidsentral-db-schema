@@ -130,7 +130,7 @@ wrangler d1 execute masjidsentral --remote --file=jejak_masjid_import.sql
 | `lng` | Yes | Longitude |
 | `geohash` | Yes | Run `add_geohash.js` first |
 | `state` | Yes | e.g. `Selangor`, `Kuala Lumpur`, `Johor` |
-| `type` | No | `masjid`, `surau`, or `musolla` — defaults to `masjid` |
+| `type` | No | `masjid`, `surau`, `musolla` — defaults to `masjid`. `musolla`/`musalla` are mapped to `surau` on import |
 | `city` | No | City or town name |
 | `country` | No | Defaults to `MY` |
 | `address` | No | Street address |
@@ -143,10 +143,21 @@ wrangler d1 execute masjidsentral --remote --file=jejak_masjid_import.sql
 
 ---
 
+## Masjid Types
+
+| Type | Description |
+|---|---|
+| `masjid` | Full mosque |
+| `surau` | General prayer room. `musolla`/`musalla` values in source data are mapped here on import |
+| `mini-surau` | Surau inside malls, shopping complexes, or petrol stations. Excludes RnR and petrol station RnR. **Tagged manually — not auto-assigned during import** |
+
+---
+
 ## Deduplication Logic
 
 | Condition | Result |
 |---|---|
-| Distance ≤ 100m **AND** name similarity ≥ 0.85 | Confident duplicate — skipped |
-| Distance ≤ 100m **OR** name similarity ≥ 0.85 | Ambiguous → `needs_review.csv` |
-| No match found | New record → `new_records.csv` |
+| Exact 9-char geohash match | Confident duplicate — skipped |
+| Distance ≤ 500m | Confident duplicate — skipped |
+| Distance ≤ 1km **AND** name similarity ≥ 0.95 | Confident duplicate — skipped |
+| No match | New record → `new_records.csv` |
