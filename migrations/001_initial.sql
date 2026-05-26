@@ -153,7 +153,7 @@ INSERT INTO countries VALUES ('id', 'Indonesia', 'ID');
 
 INSERT INTO masjid_types VALUES ('masjid',     'masjid',     'Mosque');
 INSERT INTO masjid_types VALUES ('surau',      'surau',      'Prayer Room');
-INSERT INTO masjid_types VALUES ('mini-surau', 'mini surau', 'Mini Prayer Room');
+INSERT INTO masjid_types VALUES ('mini-surau', 'mini surau', 'Mini Surau');
 
 INSERT INTO states VALUES ('my-jhr', 'Johor',              'my');
 INSERT INTO states VALUES ('my-kdh', 'Kedah',              'my');

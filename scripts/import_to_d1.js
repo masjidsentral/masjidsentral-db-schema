@@ -75,8 +75,8 @@ const TYPE_MAP = {
   'masjid':     'masjid',
   'mosque':     'masjid',
   'surau':      'surau',
-  'musolla':    'mini-surau',
-  'musalla':    'mini-surau',
+  'musolla':    'surau',
+  'musalla':    'surau',
   'mini surau': 'mini-surau',
   'mini-surau': 'mini-surau',
 }
