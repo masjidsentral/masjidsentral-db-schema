@@ -72,11 +72,13 @@ const COUNTRY_MAP = {
 
 // ─── Type ID lookup ────────────────────────────────────────────────────────────
 const TYPE_MAP = {
-  'masjid':   'masjid',
-  'mosque':   'masjid',
-  'surau':    'surau',
-  'musolla':  'musolla',
-  'musalla':  'musolla',
+  'masjid':     'masjid',
+  'mosque':     'masjid',
+  'surau':      'surau',
+  'musolla':    'mini-surau',
+  'musalla':    'mini-surau',
+  'mini surau': 'mini-surau',
+  'mini-surau': 'mini-surau',
 }
 
 // ─── Helpers ───────────────────────────────────────────────────────────────────
