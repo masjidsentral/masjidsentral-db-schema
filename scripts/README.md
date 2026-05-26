@@ -69,12 +69,14 @@ wrangler d1 execute masjidsentral --remote --file=qiyam_import.sql
 
 ### Step 3 — Jejak Masjid: Export existing DB for dedup reference
 
-Export the current MasjidDB records (after partner insert) to a CSV:
+Export the current MasjidDB records (after partner insert) to a SQL dump, then convert to CSV:
 
 ```bash
-wrangler d1 export masjidsentral --remote --output=existing_db.csv \
-  --sql="SELECT id, name, lat, lng, geohash FROM masjids"
+wrangler d1 export masjidsentral --remote --table=masjids --no-schema --output=masjids_dump.sql
+node sql_to_csv.js masjids_dump.sql existing_db.csv
 ```
+
+> `wrangler d1 export` only supports SQL format — `sql_to_csv.js` handles the conversion.
 
 ---
 

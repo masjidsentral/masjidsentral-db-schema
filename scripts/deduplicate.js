@@ -25,9 +25,11 @@ const { stringify } = require('csv-stringify/sync')
 const ngeohash = require('ngeohash')
 const natural = require('natural')
 
-const GEOHASH_PREFIX_LEN = 5      // ~4.9km search box — generous for candidate fetch
-const DISTANCE_THRESHOLD_M = 100  // metres
-const NAME_SIMILARITY_THRESHOLD = 0.85
+const GEOHASH_PREFIX_LEN = 5       // ~4.9km search box — generous for candidate fetch
+const GEOHASH_EXACT_LEN = 9        // ~4.8m x 4.8m — exact location match
+const DISTANCE_THRESHOLD_M = 500   // within 500m → duplicate regardless of name
+const DISTANCE_HIGH_SIM_M = 1000   // within 1km + high name similarity → duplicate
+const NAME_SIMILARITY_HIGH = 0.95  // threshold for 500m–1km range
 
 function haversine(lat1, lng1, lat2, lng2) {
   const R = 6_371_000
@@ -78,29 +80,41 @@ const existingRecords = readCsv(existingFile)
 validateColumns(yourRecords, yourFile)
 validateColumns(existingRecords, existingFile)
 
-// Build a prefix map for fast candidate lookup
+// Build lookup maps from existing (Qiyam) records
 const existingByPrefix = {}
+const existingByGeohash9 = {}
 for (const record of existingRecords) {
   const prefix = record.geohash.slice(0, GEOHASH_PREFIX_LEN)
   if (!existingByPrefix[prefix]) existingByPrefix[prefix] = []
   existingByPrefix[prefix].push(record)
+
+  const gh9 = ngeohash.encode(parseFloat(record.lat), parseFloat(record.lng), GEOHASH_EXACT_LEN)
+  existingByGeohash9[gh9] = record
 }
 
 const newRecords = []
-const needsReview = []
 let duplicateCount = 0
 
 for (const row of yourRecords) {
+  // Exact 9-char geohash match → definite duplicate, keep Qiyam's record
+  const gh9 = ngeohash.encode(parseFloat(row.lat), parseFloat(row.lng), GEOHASH_EXACT_LEN)
+  if (existingByGeohash9[gh9]) {
+    duplicateCount++
+    continue
+  }
+
   const prefix = row.geohash.slice(0, GEOHASH_PREFIX_LEN)
   const candidates = existingByPrefix[prefix] ?? []
 
   if (!candidates.length) {
-    newRecords.push(row)
+    newRecords.push({
+      ...row,
+      geohash: ngeohash.encode(parseFloat(row.lat), parseFloat(row.lng), GEOHASH_EXACT_LEN),
+    })
     continue
   }
 
   let isDuplicate = false
-  let isAmbiguous = false
 
   for (const cand of candidates) {
     const dist = haversine(
@@ -112,38 +126,28 @@ for (const row of yourRecords) {
       normalizeName(cand.name)
     )
 
-    const closeEnough = dist <= DISTANCE_THRESHOLD_M
-    const similarName = nameSim >= NAME_SIMILARITY_THRESHOLD
-
-    if (closeEnough && similarName) {
+    if (dist <= DISTANCE_THRESHOLD_M) {
       isDuplicate = true
       break
-    } else if (closeEnough || similarName) {
-      needsReview.push({
-        ...row,
-        _match_name: cand.name,
-        _match_lat: cand.lat,
-        _match_lng: cand.lng,
-        _distance_m: dist.toFixed(1),
-        _name_similarity: nameSim.toFixed(3),
-      })
-      isAmbiguous = true
+    } else if (dist <= DISTANCE_HIGH_SIM_M && nameSim >= NAME_SIMILARITY_HIGH) {
+      isDuplicate = true
       break
     }
   }
 
   if (isDuplicate) {
     duplicateCount++
-  } else if (!isAmbiguous) {
-    newRecords.push(row)
+  } else {
+    newRecords.push({
+      ...row,
+      geohash: ngeohash.encode(parseFloat(row.lat), parseFloat(row.lng), GEOHASH_EXACT_LEN),
+    })
   }
 }
 
 fs.writeFileSync('new_records.csv', stringify(newRecords, { header: true }))
-fs.writeFileSync('needs_review.csv', stringify(needsReview, { header: true }))
 
 const total = yourRecords.length
 console.log(`\nResults (${total} records processed):`)
 console.log(`  ${String(newRecords.length).padStart(5)}  new records    → new_records.csv  (safe to insert)`)
-console.log(`  ${String(needsReview.length).padStart(5)}  needs review   → needs_review.csv (check manually)`)
 console.log(`  ${String(duplicateCount).padStart(5)}  duplicates     → skipped`)
