@@ -226,6 +226,15 @@ CREATE TABLE batch_guard (
   CONSTRAINT version_guard CHECK (ok = 1)
 ) WITHOUT ROWID;
 
+-- Precondition guard (S3 review fix): same trick as batch_guard, placed BEFORE an entity write. The API inserts
+-- `SELECT CASE WHEN <condition> THEN 1 ELSE 0 END` (e.g. "the masjid is still active"); a failed condition raises
+-- "CHECK constraint failed: precondition_guard" and rolls the batch back. A separate table and constraint name
+-- lets the API tell a lost precondition (404) from a lost version race (409).
+CREATE TABLE batch_precondition (
+  ok INTEGER PRIMARY KEY,
+  CONSTRAINT precondition_guard CHECK (ok = 1)
+) WITHOUT ROWID;
+
 CREATE TABLE webhook_subscriptions (
   id         INTEGER PRIMARY KEY AUTOINCREMENT,
   api_key_id INTEGER NOT NULL REFERENCES api_keys(id),
