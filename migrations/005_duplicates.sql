@@ -12,6 +12,7 @@ CREATE TABLE duplicate_candidates (
   status      TEXT    NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'merged', 'dismissed')),
   created_at  TEXT    NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ', 'now')),
   resolved_at TEXT,
+  resolved_by TEXT,                            -- admin actor (opaque id) that dismissed or merged the pair
   CHECK (masjid_a < masjid_b),
   UNIQUE (masjid_a, masjid_b)
 );
@@ -23,6 +24,16 @@ CREATE TABLE scan_state (
   id              INTEGER PRIMARY KEY CHECK (id = 1),
   last_updated_at TEXT    NOT NULL,
   last_id         INTEGER NOT NULL DEFAULT 0,
-  last_run_at     TEXT
+  last_run_at     TEXT,
+  last_run_scanned INTEGER NOT NULL DEFAULT 0,  -- masjids fully processed in the last run
+  last_run_queued  INTEGER NOT NULL DEFAULT 0,  -- pairs newly queued in the last run
+  last_error      TEXT                          -- message of the last failed run; NULL after a clean run
 );
 INSERT INTO scan_state (id, last_updated_at, last_id) VALUES (1, '', 0);
+
+-- Reference-data drift (S4 review M2). 001 HEAD seeds `mini-surau` and has no `musolla`; a database created from an
+-- older 001 can differ. 004 has rebuilt `masjids` empty at this point, so nothing references `musolla`; the guard
+-- keeps the DELETE safe anyway. Before migrating a real database, diff countries/states/cities/masjid_types
+-- against 001 HEAD (PROGRESS_app-sync.md deploy checklist).
+INSERT OR IGNORE INTO masjid_types (id, name, name_en) VALUES ('mini-surau', 'mini surau', 'Mini Surau');
+DELETE FROM masjid_types WHERE id = 'musolla' AND NOT EXISTS (SELECT 1 FROM masjids WHERE type_id = 'musolla');

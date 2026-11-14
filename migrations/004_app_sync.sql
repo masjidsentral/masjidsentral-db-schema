@@ -200,7 +200,8 @@ CREATE TABLE changes (
   changed_fields TEXT NOT NULL DEFAULT '[]',   -- JSON array
   before_json    TEXT,                          -- previous full entity, null on create
   after_json     TEXT NOT NULL,                 -- full entity after the change
-  occurred_at    TEXT NOT NULL
+  occurred_at    TEXT NOT NULL,
+  admin_note     TEXT                           -- free text an admin attached (merge reason); never returned by /changes
 );
 CREATE INDEX idx_changes_entity ON changes(entity, entity_id, version);
 CREATE INDEX idx_changes_masjid ON changes(masjid_id);
