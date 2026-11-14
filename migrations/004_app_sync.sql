@@ -217,13 +217,23 @@ CREATE TABLE idempotency_keys (
 );
 CREATE INDEX idx_idempotency_created ON idempotency_keys(created_at);
 
+-- Abort guard for write batches: the API inserts `SELECT CASE WHEN changes() = 1 THEN 1 ELSE 0 END` right after a
+-- version-guarded UPDATE, so a lost guard raises "CHECK constraint failed: version_guard" and rolls the whole
+-- D1 batch back. The API deletes the row again straight away (the table stays empty). WITHOUT ROWID so the
+-- insert does not disturb last_insert_rowid().
+CREATE TABLE batch_guard (
+  ok INTEGER PRIMARY KEY,
+  CONSTRAINT version_guard CHECK (ok = 1)
+) WITHOUT ROWID;
+
 CREATE TABLE webhook_subscriptions (
   id         INTEGER PRIMARY KEY AUTOINCREMENT,
   api_key_id INTEGER NOT NULL REFERENCES api_keys(id),
   url        TEXT NOT NULL CHECK (url LIKE 'https://%'),
   secret     TEXT NOT NULL,
   active     INTEGER NOT NULL DEFAULT 1 CHECK (active IN (0, 1)),
-  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ', 'now'))
+  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ', 'now')),
+  UNIQUE (api_key_id, url)
 );
 CREATE INDEX idx_webhook_subscriptions_key ON webhook_subscriptions(api_key_id);
 
