@@ -24,10 +24,12 @@ CREATE TABLE scan_state (
   id              INTEGER PRIMARY KEY CHECK (id = 1),
   last_updated_at TEXT    NOT NULL,
   last_id         INTEGER NOT NULL DEFAULT 0,
-  last_run_at     TEXT,
+  last_run_at     TEXT,                         -- start time of the last run
   last_run_scanned INTEGER NOT NULL DEFAULT 0,  -- masjids fully processed in the last run
   last_run_queued  INTEGER NOT NULL DEFAULT 0,  -- pairs newly queued in the last run
-  last_error      TEXT                          -- message of the last failed run; NULL after a clean run
+  last_error      TEXT,                         -- 'running' while a run is in flight (stays if it is killed); the message of the last failed run; NULL after a clean run
+  consecutive_failures INTEGER NOT NULL DEFAULT 0, -- runs started on the same cursor that did not advance it; reset when the cursor advances
+  skipped_ids     TEXT    NOT NULL DEFAULT '[]' -- JSON list (newest 100) of masjid ids skipped as poisoned
 );
 INSERT INTO scan_state (id, last_updated_at, last_id) VALUES (1, '', 0);
 
