@@ -1,0 +1,110 @@
+{{Short description|Second-level administrative division of Brunei}}
+{{Use British English|date=May 2024}}{{Use dmy dates|date=May 2024}}
+{{Politics of Brunei}}{{Administrative divisions of Brunei sidebar}}
+[[File:Brunei mukims.png|thumb|270px|Mukims of Brunei.|alt=]]
+A '''[[mukim]]''' is a second-level [[Administrative divisions of Brunei|administrative division]] of [[Brunei|Brunei Darussalam]], and the primary sub-division of a larger [[Districts of Brunei|district]] ({{Lang|ms|daerah}}).  There are thirty-nine mukims within the four districts of the sultanate Brunei Darussalam.  A mukim is led by a {{Lang|ms|[[penghulu]]|i=no}}, since 2015 elected by democratic vote.  A mukim encompasses a number of [[Villages of Brunei|villages]], known in Malay as {{Lang|ms|kampung}} or {{Lang|ms|kampong}}.<ref name=Tutong/>  Mukims are administered by the district office of the district where they are located.
+
+==List of mukims==
+{|class="wikitable sortable"
+|+Mukims of Brunei Darussalam
+!Mukim!![[Districts of Brunei|District]]!!Population<br>(2021)<ref name=Annex-B>{{Cite web|title=Annex B|url=https://deps.mofe.gov.bn/DEPD%20Documents%20Library/DOS/POP/2021/ANNEX%20B.pdf|website=DEPS.MoFE.gov.bn|publisher=Department of Economic Planning and Statistics, [[Ministry of Finance and Economy (Brunei)|Ministry of Finance and Economy]]|date=October 2021|access-date=23 January 2024}}</ref>!!map
+|-
+|[[Mukim Berakas 'A'|Berakas 'A']]||rowspan=18|[[Brunei-Muara District|Brunei-Muara]]<ref>{{Cite web|title=Brunei-Muara District|url=https://www.information.gov.bn/PublishingImages/SitePages/Publication%20Lists/Brunei%20District.pdf|website=Information.gov.bn|location=[[Old Airport, Brunei|Old Airport]], [[Mukim Berakas 'A'|Berakas]], BB3510|publisher=Information Department, [[Prime Minister's Office (Brunei)|Prime Minister's Office, Brunei Darussalam]]|page=8|date= |access-date=1 March 2018}}</ref>||align=right|28,311||rowspan=18|[[File:Brunei and Muara mukims.png|frameless|225px|alt=]]<br>(note that Gadong 'A' and 'B'<br>are shown as one entity)
+|-
+|[[Mukim Berakas 'B'|Berakas 'B']]||align=right|39,284
+|-
+|[[Mukim Burong Pingai Ayer|Burong Pingai Ayer]]||align=right|1,459
+|-
+|[[Mukim Gadong 'A'|Gadong 'A']]||align=right|35,424
+|-
+|[[Mukim Gadong 'B'|Gadong 'B']]||align=right|38,067
+|-
+|[[Mukim Kianggeh|Kianggeh]]||align=right|8,102
+|-
+|[[Mukim Kilanas|Kilanas]]||align=right|24,981
+|-
+|[[Mukim Kota Batu|Kota Batu]]||align=right|12,676
+|-
+|[[Mukim Lumapas|Lumapas]]||align=right|8,058
+|-
+|[[Mukim Mentiri|Mentiri]]||align=right|39,324
+|-
+|[[Mukim Pengkalan Batu|Pangkalan Batu]]||align=right|15,860
+|-
+|[[Mukim Peramu|Peramu]]||align=right|1,151
+|-
+|[[Mukim Saba|Saba]]||align=right|827
+|-
+|[[Mukim Sengkurong|Sengkurong]]||align=right|40,972
+|-
+|[[Mukim Serasa|Serasa]]||align=right|18,569
+|-
+|[[Mukim Sungai Kebun|Sungai Kebun]]||align=right|4,282
+|-
+|[[Mukim Sungai Kedayan|Sungai Kedayan]]||align=right|241
+|-
+|[[Mukim Tamoi|Tamoi]]||align=right|942
+|-
+|[[Mukim Bukit Sawat|Bukit Sawat]]||rowspan=8|[[Belait District|Belait]]<ref>{{Cite web|title=Belait District|url=https://www.information.gov.bn/PublishingImages/SitePages/Publication%20Lists/BelaitDistrict.pdf|website=Information.gov.bn|location=[[Old Airport, Brunei|Old Airport]], [[Mukim Berakas 'A'|Berakas]], BB3510|publisher=Information Department, [[Prime Minister's Office (Brunei)|Prime Minister's Office, Brunei Darussalam]]|pages=8–9|access-date=1 March 2018}}</ref>||align=right|759||rowspan=8|[[File:Belait mukims.png|frameless|225px|alt=]]
+|-
+|[[Mukim Kuala Balai|Kuala Balai]]||align=right|16
+|-
+|[[Mukim Kuala Belait|Kuala Belait]]||align=right|28,793
+|-
+|[[Mukim Labi|Labi]]||align=right|727
+|-
+|[[Mukim Liang|Liang]]||align=right|16,813
+|-
+|[[Mukim Melilas|Melilas]]||align=right|29
+|-
+|[[Mukim Seria|Seria]]||align=right|18,313
+|-
+|[[Mukim Sukang|Sukang]]||align=right|81
+|-
+|[[Mukim Keriam|Keriam]]||rowspan=8|[[Tutong District|Tutong]]<ref name=Tutong>{{Cite web|title=Tutong District|url=https://www.information.gov.bn/PublishingImages/SitePages/Publication%20Lists/TutongDistrict.pdf|website=Information.gov.bn|location=[[Old Airport, Brunei|Old Airport]], [[Mukim Berakas 'A'|Berakas]], BB3510|publisher=Information Department, [[Prime Minister's Office (Brunei)|Prime Minister's Office, Brunei Darussalam]]|pages=7–9|access-date=1 March 2018}}</ref>||align=right|8,589||rowspan=8|[[File:Tutong mukims.png|frameless|225px|alt=]]
+|-
+|[[Mukim Kiudang|Kiudang]]||align=right|5,063
+|-
+|[[Mukim Lamunin|Lamunin]]||align=right|3,641
+|-
+|[[Mukim Pekan Tutong|Pekan Tutong]]||align=right|9,883
+|-
+|[[Mukim Rambai|Rambai]]||align=right|980
+|-
+|[[Mukim Tanjong Maya|Tanjong Maya]]||align=right|3,772
+|-
+|[[Mukim Telisai|Telisai]]||align=right|13,253
+|-
+|[[Mukim Ukong|Ukong]]||align=right|2,029
+|-
+|[[Mukim Amo|Amo]]||rowspan=5|[[Temburong District|Temburong]]<ref>{{Cite web|title=Temburong District|url=https://www.information.gov.bn/PublishingImages/SitePages/Publication%20Lists/TemburungDistrict.pdf|website=Information.gov.bn|location=[[Old Airport, Brunei|Old Airport]], [[Mukim Berakas 'A'|Berakas]], BB3510|publisher=Information Department, [[Prime Minister's Office (Brunei)|Prime Minister's Office, Brunei Darussalam]]|page=8|access-date=1 March 2018}}</ref>||align=right|1,667||rowspan=5|[[File:Temburong mukims.png|frameless|225px|alt=]]
+|-
+|[[Mukim Bangar|Bangar]]||align=right|2,112
+|-
+|[[Mukim Batu Apoi|Batu Apoi]]||align=right|1,355
+|-
+|[[Mukim Bokok|Bokok]]||align=right|3,812
+|-
+|[[Mukim Labu|Labu]]||align=right|508
+|}
+
+==References==
+{{Reflist}}
+
+==External links==
+{{Commons category-inline}}
+
+{{Mukims of Brunei}}
+{{Brunei topics}}
+{{Articles on second-level administrative divisions of Asian countries}}
+{{Portal bar|Asia|Geography|Government}}
+{{Authority control}}
+
+[[Category:Subdivisions of Brunei]]
+[[Category:Brunei geography-related lists]]
+[[Category:Administrative divisions in Asia|Brunei 2]]
+[[Category:Second-level administrative divisions by country|Mukims, Brunei]]
+[[Category:Lists of administrative divisions|Brunei, Mukims]]
+
+
+{{Brunei-geo-stub}}

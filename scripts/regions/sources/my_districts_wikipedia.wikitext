@@ -1,0 +1,1002 @@
+{{Short description|none}}
+{{about|districts in Malaysia for the purpose of land administration and revenue|local government purpose|List of local governments in Malaysia|electoral purpose|List of Malaysian electoral districts}}
+{{Use British English|date=January 2018}}
+{{Use dmy dates|date=January 2018}}
+
+'''Districts''' ({{langx|ms|Daerah}}; ''[[Jajahan]]'' in [[Kelantan]]) are a type of subdivision below the [[States and federal territories of Malaysia|state]] level in [[Malaysia]]. An administrative district is administered by a lands and district office ({{langx|ms|pejabat daerah dan tanah}}) which is headed by district officer ({{langx|ms|pegawai daerah}}).
+
+==Classification==
+In [[Peninsular Malaysia]], a district is a subdivision of a [[States and federal territories of Malaysia|state]]. A ''[[mukim]]'' ([[Commune (administrative division)|commune]], sub-district or [[parish]]) is a subdivision of a district. The [[National Land Code (Malaysia)|National Land Code]] assigns land matters, including the delineation of districts, to the purview of [[State governments of Malaysia|state governments]].<ref>{{Cite journal |year=2020 |title=National Land Code |url=https://faolex.fao.org/docs/pdf/mal5145.pdf |journal=[[Government of Malaysia|Malaysian federal government]] |page=54 |via=[[Food and Agriculture Organization]]}}</ref> These states operate a [[Torrens title|Torrens system]], with districts administered by the respective state's land and district office, and coordinated by the land and mines office.<ref>{{cite journal |last1=Zulkifli |first1=Nur Amalina |last2=Abdul Rahman |first2=Alias |last3=van Oosterom |first3=Peter |last4=Tan |first4=Liat Choon |last5=Jamil |first5=Hasan |last6=Teng |first6=Chee Hua |last7=Looi |first7=Kam Seng |last8=Chan |first8=Keat Lim |title=The importance of Malaysian Land Administration Domain Model country profile in land policy |journal=Land Use Policy |date=December 2015 |volume=49 |pages=649–659 |doi=10.1016/j.landusepol.2015.07.015 |bibcode=2015LUPol..49..649Z }}</ref>
+
+The state of [[Perlis]] is not divided into districts due to its size, but straight to the mukim level. The three [[Federal Territories of Malaysia|Federal Territories]] are also not divided into districts; however [[Kuala Lumpur]] is divided into several mukim for land administration purposes. [[Putrajaya]] is divided into ''precincts''.
+
+In [[East Malaysia]], a district is a subdivision of a [[Divisions of Malaysia|division]] (''bahagian'') of a state.<ref>{{cite web|url=http://www.statoids.com/ymy.html |title=Malaysia Districts |publisher=Statoids.com |access-date=3 November 2010}}</ref> For example, [[Tuaran District|Tuaran]] is a district within the [[West Coast Division]] of [[Sabah]]. A district is usually named after the main town or its administrative [[Capital (political)|capital]]; for example, the town of [[Sandakan]] is the capital of the Sandakan District, as well as the capital of [[Sandakan Division]].
+
+Some larger districts are further divided into autonomous sub-districts (''daerah kecil''; literally "small district") before the mukim level. This is prevalent in [[Sarawak]] and [[Sabah]], but also seen in Peninsular Malaysia in recent years, e.g. [[Lojing]] autonomous sub-district in [[Kelantan]]. Sub-districts in [[Sarawak]] and [[Sabah]], however, are not divided into mukim.
+
+===Relationship with parliament and local government===
+In contrast to [[Local government in Malaysia|local governments]] that manage municipal administration and infrastructure development,{{sfn|Lo Vullo|Ho|Chau|Monforti-Ferrario|2022|p=6}} districts are solely utilised for land revenue.<ref>{{cite journal |last1=Adnan |first1=M Z |last2=Suratman |first2=R |last3=Samsudin |first3=S |title=Key geographical features on malaysia's land tax system: a comparison study in negeri sembilan, malaysia |journal=IOP Conference Series: Earth and Environmental Science |date=March 2021 |volume=683 |issue=1 |article-number=012095 |doi=10.1088/1755-1315/683/1/012095 |bibcode=2021E&ES..683a2095A |doi-access=free }}</ref> While districts are usually congruent with [[local government area]]s, in more urbanised states, municipalities and districts either overlap or subsume one another.{{sfn|Lo Vullo|Ho|Chau|Monforti-Ferrario|2022|p=6}} In [[Selangor]], the [[Petaling District|district of Petaling]] contains three [[List of cities in Malaysia#Cities in Malaysia|cities]] {{En dash}} [[Petaling Jaya]], [[Subang Jaya]] and the state's capital [[Shah Alam]].<ref>{{cite journal |last1=Yasin |first1=Muhammad Yazrin |last2=Zain |first2=Muhammad Azmi Bin Mohd |last3=Hassan |first3=Muhammad Haniff Bin |title=Urbanization and growth of Greater Kuala Lumpur: Issues and recommendations for urban growth management |journal=Southeast Asia |date=15 December 2022 |volume=22 |issue=2 |pages=4–19 |doi=10.1108/seamj-02-2022-b1002 |doi-access=free }}</ref> Similarly in [[Johor]], [[Johor Bahru District]] consists of three cities {{En dash}} [[Iskandar Puteri]], [[Johor Bahru]] and [[Pasir Gudang]].<ref>{{cite book |doi=10.1007/978-3-319-03644-1_6 |chapter=Spatial-Based Sustainability Assessment of Urban Neighbourhoods: A Case Study of Johor Bahru City Council, Malaysia |title=Geoinformation for Informed Decisions |series=Lecture Notes in Geoinformation and Cartography |date=2014 |last1=Ariffin |first1=Azman |last2=Mukhelas |first2=Haziq Kamal |last3=Hamid Mar Iman |first3=Abd. |last4=Desa |first4=Ghazali |last5=Mohammad |first5=Izran Sarrazin |pages=85–101 |isbn=978-3-319-03643-4 }}</ref> Conversely, a local government can administer multiple districts, such as in [[Penang]], where [[George Town, Penang|George Town]] encompasses the [[North-East District (Penang)|Northeast]] and [[South-West District (Penang)|Southwest]] districts,<ref>{{Cite news |last=McIntyre |first=Ian |date=26 Jan 2024 |title=Nearly half of Penang island's non-built land under forest cover, says council |url=https://www.thevibes.com/articles/news/100808/nearly-half-of-penang-island-to-remain-under-forest-cover-says-council |access-date=22 Dec 2024 |work=The Vibes}}</ref> and [[Seberang Perai]] comprises the [[North Seberang Perai District|Northern]], [[Central Seberang Perai District|Central]] and [[South Seberang Perai District|Southern]] districts.<ref>{{Cite news |last=Goh |first=Ban Lee |date=7 Oct 2019 |title=Seberang Perai comes of age |url=https://thesun.my/opinion-news/seberang-perai-comes-of-age-JB1452487 |access-date=22 Dec 2024 |work=[[The Sun (Malaysia)|The Sun]]}}</ref>
+
+Administrative district boundaries also provide the basis of boundaries for the [[Dewan Rakyat|parliamentary constituencies]] in the [[Malaysian Parliament]].<ref>{{cite web |title=Persempadanan |url=https://www.spr.gov.my/ms/pilihan-raya/soalan-lazim/persempadanan |website=Suruhanjaya Pilihan Raya (Election Commission of Malaysia) |access-date=20 September 2020}}</ref> However this is not always the case; in heavily populated areas e.g. the [[Klang Valley]] and [[Kinta District|Kinta Valley]] there is serious overlap between district, local government and parliamentary boundaries.
+
+==By states==
+===West Malaysia (Peninsular Malaysia)===
+{{legend|#FFAAAA|[[Federal Territories (Malaysia)|Federal Territory (Not District)]]}}
+{{legend|#AAFFAA|City-status District}}
+{{legend|#AAAAFF|Municipal-status District}}
+{| class="wikitable sortable"
+|-
+!Federal Territory/State
+!District Name
+!Capital/Largest settlement
+!Local Government
+!Population (2020{{My10|2020kf}})<!--Include Non-Malaysian-->
+!Area (km<sup>2</sup>)
+!Density
+|-
+| rowspan="3" colspan="1" style="background:#fff;"| {{flag|Federal Territory (Malaysia)}}
+|- style="background:#faa;"
+|{{N/A}}
+| {{flag|Kuala Lumpur}}
+|[[Kuala Lumpur City Hall|Kuala Lumpur H]]
+|{{pop density|1982112|243|km2|disp=table|prec=1}}
+|- style="background:#faa;"
+|{{N/A}}
+| {{flag|Putrajaya}}
+|[[Putrajaya Corporation|Putrajaya P]]
+|{{pop density|109202|49|km2|disp=table|prec=1}}
+|-
+| rowspan="11" colspan="1" style="background:#fff;"| {{flag|Johor}}
+|- style="background:#aaf;"
+|{{flagicon image|Flag of Batu Pahat, Johor.svg}} [[Batu Pahat District]]
+|[[Batu Pahat (town)|Batu Pahat]]
+|[[Batu Pahat Municipal Council|Batu Pahat M]]<br />[[Yong Peng District Council|Yong Peng D]]
+|{{pop density|495338|1966|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|{{flagicon image|Flag of Johor Bahru, Johor.svg}} [[Johor Bahru District]]
+|[[Johor Bahru]]
+|[[Johor Bahru City Council|Johor Bahru C]]<br />[[Iskandar Puteri City Council|Iskandar Puteri C]]<br />[[Pasir Gudang City Council|Pasir Gudang C]]
+|{{pop density|1711191|1066|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|{{flagicon image|Flag of Kluang, Johor.svg}} [[Kluang District]]
+|[[Kluang (town)|Kluang]]
+|[[Kluang Municipal Council|Kluang M]]<br />[[Simpang Renggam District Council|Simpang Renggam D]]
+|{{pop density|323762|2865|km2|disp=table|prec=1}}
+|-style="background:#aaf;"
+|{{flagicon image|Flag of Kota Tinggi, Johor.svg}} [[Kota Tinggi District]]
+|[[Kota Tinggi]]
+|[[Kota Tinggi District Council|Kota Tinggi D]]<br />[[Pengerang Municipal Council|Pengerang M]]
+|{{pop density|222382|3489|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|{{flagicon image|Flag of Kulai, Johor.svg}} [[Kulai District]]
+|[[Kulai]]
+|[[Kulai Municipal Council|Kulai M]]
+|{{pop density|329497|756|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Mersing, Johor.svg}} [[Mersing District]]
+|[[Mersing]]
+|[[Mersing District Council|Mersing D]]
+|{{pop density|78195|2857|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|{{flagicon image|Flag of Muar, Johor.svg}} [[Muar District]]
+|[[Muar (town)|Muar]]
+|[[Muar Municipal Council|Muar M]]
+|{{pop density|314776|1393|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|{{flagicon image|Flag of Pontian, Johor.svg}} [[Pontian District]]
+|[[Pontian Kechil]]
+|[[Pontian Municipal Council|Pontian M]]
+|{{pop density|173318|933|km2|disp=table|prec=1}}
+|-style="background:#aaf;"
+|{{flagicon image|Flag of Segamat, Johor.svg}} [[Segamat District]]
+|[[Segamat (town)|Segamat]]
+|[[Segamat Municipal Council|Segamat M]]<br />[[Labis District Council|Labis D]]
+|{{pop density|197762|2867|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Tangkak, Johor.svg}} [[Tangkak District]]
+|[[Tangkak]]
+|[[Tangkak District Council|Tangkak D]]
+|{{pop density|163449|977|km2|disp=table|prec=1}}
+|-
+| rowspan="13" colspan="1" style="background:#fff;"| {{flag|Kedah}}
+|-
+|[[Baling District]]
+|[[Baling]]
+|[[Baling District Council|Baling D]]
+|{{pop density|142643|1529|km2|disp=table|prec=1}}
+|-
+|[[Bandar Baharu District]]
+|[[Serdang, Kedah|Serdang]]
+|[[Bandar Baharu District Council|Bandar Baharu D]]
+|{{pop density|44412|271|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Kota Setar District]]
+|[[Alor Setar]]
+|[[Alor Setar City Council|Alor Setar C]]
+|{{pop density|374051|420|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Kuala Muda District]]
+|[[Sungai Petani]]
+|[[Sungai Petani Municipal Council|Sungai Petani M]]
+|{{pop density|544984|913|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Kubang Pasu District]]
+|[[Jitra]]
+|[[Kubang Pasu Municipal Council|Kubang Pasu M]]
+|{{pop density|237759|946|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Kulim District]]
+|[[Kulim]]
+|[[Kulim Municipal Council|Kulim M]]<br />[[Kulim Hi-Tech Park|Kulim Hi-Tech <br />Industrial Park LA]]
+|{{pop density|337699|774|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Langkawi District]]
+|[[Kuah]]
+|[[Tourism City of Langkawi Municipal Council|Langkawi M]]
+|{{pop density|94138|526|km2|disp=table|prec=1}}
+|-
+|[[Padang Terap District]]
+|[[Kuala Nerang]]
+|[[Padang Terap District Council|Padang Terap D]]
+|{{pop density|65698|1359|km2|disp=table|prec=1}}
+|-
+|[[Pendang District]]
+|[[Pendang]]
+|[[Pendang District Council|Pendang D]]
+|{{pop density|98922|629|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Pokok Sena District]]
+|[[Pokok Sena]]
+|[[Alor Setar City Council|Alor Setar C]]
+|{{pop density|49812|244|km2|disp=table|prec=1}}
+|-
+|[[Sik District]]
+|[[Sik, Kedah|Sik]]
+|[[Sik District Council|Sik D]]
+|{{pop density|67925|1635|km2|disp=table|prec=1}}
+|-
+|[[Yan District]]
+|[[Yan Besar]]
+|[[Yan District Council|Yan D]]
+|{{pop density|73384|246|km2|disp=table|prec=1}}
+|-
+| rowspan="11" colspan="1" style="background:#fff;"| {{flag|Kelantan}}
+|-
+|{{flagicon image|Flag of Bachok, Kelantan.svg}} [[Bachok District]]
+|[[Bachok]]
+|[[Bachok District Council|Bachok D]]
+|{{pop density|157288|279|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Gua Musang, Kelantan.svg}} [[Gua Musang District]]{{notetag|figures include [[Lojing|Lojing Sub-district]]}}
+|[[Gua Musang District|Gua Musang]]
+|[[Gua Musang District Council|Gua Musang D]] [[Lojing D]]
+|{{pop density|112495|8179|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Jeli, Kelantan.svg}} [[Jeli District]]
+|[[Jeli]]
+|[[Jeli District Council|Jeli D]]
+|{{pop density|54656|1326|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|{{flagicon image|Flag of Kota Bharu, Kelantan.svg}} [[Kota Bharu District]]
+|[[Kota Bharu]]
+|[[Islamic City of Kota Bharu Municipal Council|Kota Bharu M]]<br />[[Islamic Municipal of Ketereh District Council|Ketereh D]]
+|{{pop density|555757|403|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Kuala Krai, Kelantan.svg}} [[Kuala Krai District]]
+|[[Kuala Krai (town)|Kuala Krai]]
+|[[Kuala Krai District Council|Kuala Krai D]]<br />[[Dabong District Council|Dabong D]]
+|{{pop density|105007|2275|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Machang, Kelantan.svg}} [[Machang District]]
+|[[Machang (town)|Machang]]
+|[[Machang District Council|Machang D]]
+|{{pop density|110008|526|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Pasir Mas, Kelantan.svg}} [[Pasir Mas District]]
+|[[Pasir Mas (town)|Pasir Mas]]
+|[[Pasir Mas District Council|Pasir Mas D]]
+|{{pop density|230424|570|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Pasir Puteh, Kelantan.svg}} [[Pasir Puteh District]]
+|[[Pasir Puteh]]
+|[[Pasir Puteh District Council|Pasir Puteh D]]
+|{{pop density|136157|423|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Tanah Merah, Kelantan.svg}} [[Tanah Merah District]]
+|[[Tanah Merah, Malaysia|Tanah Merah]]
+|[[Tanah Merah District Council|Tanah Merah D]]
+|{{pop density|150766|880|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Tumpat, Kelantan.svg}} [[Tumpat District]]
+|[[Tumpat (town)|Tumpat]]
+|[[Tumpat District Council|Tumpat D]]
+|{{pop density|179943|180|km2|disp=table|prec=1}}
+|-
+| rowspan="4" colspan="1" style="background:#fff;"| {{flag|Malacca}}
+|- style="background:#aaf;"
+|[[Alor Gajah District]]
+|[[Alor Gajah]]
+|[[Alor Gajah Municipal Council|Alor Gajah M]]<br />[[Hang Tuah Jaya Municipal Council|Hang Tuah Jaya M]]
+|{{pop density|249356|674|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Jasin District]]
+|[[Jasin (town)|Jasin]]
+|[[Jasin Municipal Council|Jasin M]]<br />[[Hang Tuah Jaya Municipal Council|Hang Tuah Jaya M]]
+|{{pop density|151937|679|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Central Melaka District|Melaka Tengah District]]
+|[[Malacca City]]
+|[[Malacca City Council|Malacca C]]<br />[[Hang Tuah Jaya Municipal Council|Hang Tuah Jaya M]]
+|{{pop density|597135|359|km2|disp=table|prec=1}}
+|-
+| rowspan="8" colspan="1" style="background:#fff;"| {{flag|Negeri Sembilan}}
+|-
+|[[Jelebu District]]
+|[[Kuala Klawang]]
+|[[Jelebu District Council|Jelebu D]]
+|{{pop density|46026|1354|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Jempol District]]
+|[[Bandar Seri Jempol]]
+|[[Jempol Municipal Council|Jempol M]]
+|{{pop density|127181|1485|km2|disp=table|prec=1}}
+|-
+|[[Kuala Pilah District]]
+|[[Kuala Pilah (town)|Kuala Pilah]]
+|[[Kuala Pilah District Council|Kuala Pilah D]]
+|{{pop density|70324|1027|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Port Dickson District]]
+|[[Port Dickson (town)|Port Dickson]]
+|[[Port Dickson Municipal Council|Port Dickson M]]
+|{{pop density|128657|583|km2|disp=table|prec=1}}
+|-
+|[[Rembau District]]
+|[[Rembau (town)|Rembau]]
+|[[Rembau District Council|Rembau D]]
+|{{pop density|47278|406|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Seremban District]]
+|[[Seremban]]
+|[[Seremban City Council|Seremban C]]
+|{{pop density|692407|954|km2|disp=table|prec=1}}
+|-
+|[[Tampin District]]
+|[[Tampin (town)|Tampin]]
+|[[Tampin District Council|Tampin D]]
+|{{pop density|88101|851|km2|disp=table|prec=1}}
+|-
+| rowspan="12" colspan="1" style="background:#fff;"| {{flag|Pahang}}
+|- style="background:#aaf;"
+|[[Bentong District]]
+|[[Bentong]]
+|[[Bentong Municipal Council|Bentong M]]
+|{{pop density|116799|1831|km2|disp=table|prec=1}}
+|-
+|[[Bera District]]
+|[[Bandar Bera]]
+|[[Bera District Council|Bera D]]
+|{{pop density|98137|2214|km2|disp=table|prec=1}}
+|-
+|[[Cameron Highlands District]]
+|[[Tanah Rata]]
+|[[Cameron Highlands District Council|Cameron Highlands D]]
+|{{pop density|39004|712|km2|disp=table|prec=1}}
+|-
+|[[Jerantut District]]
+|[[Jerantut]]
+|[[Jerantut District Council|Jerantut D]]
+|{{pop density|96006|7561|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Kuantan District]]
+|[[Kuantan]]
+|[[Kuantan City Council|Kuantan C]]
+|{{pop density|548014|2960|km2|disp=table|prec=1}}
+|-
+|[[Lipis District]]
+|[[Kuala Lipis]]
+|[[Lipis District Council|Lipis D]]
+|{{pop density|96620|5198|km2|disp=table|prec=1}}
+|-
+|[[Maran District]]
+|[[Maran (town)|Maran]]
+|[[Maran District Council|Maran D]]
+|{{pop density|112330|1917|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Pekan District]]
+|[[Pekan, Pahang|Pekan]]
+|[[Pekan District Council|Pekan M]]
+|{{pop density|121158|3805|km2|disp=table|prec=1}}
+|-
+|[[Raub District]]
+|[[Raub, Pahang|Raub]]
+|[[Raub District Council|Raub D]]
+|{{pop density|96139|2269|km2|disp=table|prec=1}}
+|-
+|[[Rompin District]]
+|[[Kuala Rompin]]
+|[[Rompin District Council|Rompin D]]<br />[[Tioman Development Authority|Tioman DA]]
+|{{pop density|98065|5247|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Temerloh District]]
+|[[Temerloh]]
+|[[Temerloh Municipal Council|Temerloh M]]
+|{{pop density|169023|2251|km2|disp=table|prec=1}}
+|-
+| style="background:#fff;" rowspan="6" colspan="1" | {{flag|Penang}}
+|- style="background:#afa;"
+|[[Central Seberang Perai District]]
+|[[Bukit Mertajam]]
+|[[Seberang Perai City Council|Seberang Perai C]]
+|{{pop density|422985|238|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[North Seberang Perai District]]
+|[[Kepala Batas, Penang|Kepala Batas]]
+|[[Seberang Perai City Council|Seberang Perai C]]
+|{{pop density|339132|268|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Northeast Penang Island District]]
+|[[George Town, Penang|George Town]]
+|[[Penang Island City Council|Penang Island C]]
+|{{pop density|556557|126|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[South Seberang Perai District]]
+|[[Sungai Jawi]]
+|[[Seberang Perai City Council|Seberang Perai C]]
+|{{pop density|183996|242|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Southwest Penang Island District]]
+|[[Balik Pulau]]
+|[[Penang Island City Council|Penang Island C]]
+|{{pop density|237735|175|km2|disp=table|prec=1}}
+|-
+| rowspan="13" colspan="1" style="background:#fff;"| {{flag|Perak}}
+|- style="background:#aaf;"
+|[[Bagan Datuk District]]
+|[[Bagan Datuk (town)|Bagan Datuk]]
+|[[Teluk Intan Municipal Council|Teluk Intan M]]
+|{{pop density|82785|974|km2|disp=table|prec=1}}
+|-
+|[[Batang Padang District]]
+|[[Tapah]]
+|[[Tapah District Council|Tapah D]]
+|{{pop density|124049|1794|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Hilir Perak District]]
+|[[Teluk Intan]]
+|[[Teluk Intan Municipal Council|Teluk Intan M]]
+|{{pop density|141959|821|km2|disp=table|prec=1}}
+|-
+|[[Hulu Perak District]]
+|[[Gerik]]
+|[[Gerik District Council|Gerik D]]<br />[[Lenggong District Council|Lenggong D]]<br />[[Pengkalan Hulu District Council|Pengkalan Hulu D]]
+|{{pop density|95076|6613|km2|disp=table|prec=1}}
+|-
+|[[Kampar District]]
+|[[Kampar, Perak|Kampar]]
+|[[Kampar District Council|Kampar D]]
+|{{pop density|98732|667|km2|disp=table|prec=1}}
+|-
+|[[Kerian District]]
+|[[Parit Buntar]]
+|[[Kerain District Council|Kerian D]]
+|{{pop density|166352|938|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Kinta District]]
+|[[Batu Gajah]]
+|[[Ipoh City Council|Ipoh C]]<br />[[Batu Gajah District Council|Batu Gajah D]]
+|{{pop density|888767|1305|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Kuala Kangsar District]]
+|[[Kuala Kangsar (town)|Kuala Kangsar]]
+|[[Kuala Kangsar Municipal Council|Kuala Kangsar M]]
+|{{pop density|176060|2562|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Larut, Matang and Selama District]]{{notetag|figures include Selama Sub-district}}
+|[[Taiping, Perak|Taiping]]
+|[[Taiping Municipal Council|Taiping M]]<br />[[Selama District Council|Selama D]]
+|{{pop density|304023|2115|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Manjung District]]
+|[[Seri Manjung]]
+|[[Manjung Municipal Council|Manjung M]]
+|{{pop density|246977|1126|km2|disp=table|prec=1}}
+|-
+|[[Muallim District]]
+|[[Tanjung Malim]]
+|[[Tanjong Malim District Council|Tanjong Malim D]]
+|{{pop density|76688|949|km2|disp=table|prec=1}}
+|-
+|[[Perak Tengah District]]
+|[[Seri Iskandar]]
+|[[Perak Tengah District Council|Perak Tengah D]]
+|{{pop density|94573|1282|km2|disp=table|prec=1}}
+|-style="background:#aaf;"
+| style="background:#fff;"| {{flag|Perlis}}
+|{{N/A}}
+|[[Kangar]]
+|[[Kangar Municipal Council|Kangar M]]
+|{{pop density|284885|819|km2|disp=table|prec=1}}
+|-
+| rowspan="10" colspan="1" style="background:#fff;"| {{flag|Selangor}}
+|- style="background:#aaf;"
+|[[Gombak District]]
+|[[Bandar Baru Selayang]]
+|[[Selayang Municipal Council|Selayang M]]<br />[[Ampang Jaya Municipal Council|Ampang Jaya M]]
+|{{pop density|942336|653|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Hulu Langat District]]
+|[[Bandar Baru Bangi]]
+|[[Kajang Municipal Council|Kajang M]]<br />[[Ampang Jaya Municipal Council|Ampang Jaya M]]
+|{{pop density|1400461|833|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Hulu Selangor District]]
+|[[Kuala Kubu Bharu]]
+|[[Hulu Selangor Municipal Council|Hulu Selangor M]]
+|{{pop density|243029|1749|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Klang District]]
+|[[Klang (city)|Klang]]
+|[[Klang Municipal Council|Klang C]]<br />[[Shah Alam City Council|Shah Alam C]]
+|{{pop density|1088942|632|km2|disp=table|prec=1}}
+|-style="background:#aaf;"
+|[[Kuala Langat District]]
+|[[Teluk Datok]]
+|[[Kuala Langat Municipal Council|Kuala Langat M]]
+|{{pop density|307787|855|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Kuala Selangor District]]
+|[[Kuala Selangor]]
+|[[Kuala Selangor Municipal Council|Kuala Selangor M]]
+|{{pop density|281753|1187|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Petaling District]]
+|[[Subang, Selangor|Subang]]
+|[[Petaling Jaya City Council|Petaling Jaya C]]<br />[[Shah Alam City Council|Shah Alam C]]<br />[[Subang Jaya City Council|Subang Jaya C]]
+|{{pop density|2298123|487|km2|disp=table|prec=1}}
+|-
+|[[Sabak Bernam District]]
+|[[Sabak, Malaysia|Sabak]]
+|[[Sabak Bernam District Council|Sabak Bernam D]]
+|{{pop density|107057|1004|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Sepang District]]
+|[[Salak Tinggi]]
+|[[Sepang Municipal Council|Sepang M]]
+|{{pop density|324935|552|km2|disp=table|prec=1}}
+|-
+| rowspan="9" colspan="1" style="background:#fff;"| {{flag|Terengganu}}
+|-
+|{{flagicon image|Flag of Besut, Terengganu.svg}} [[Besut District]]
+|[[Kampung Raja]]
+|[[Besut District Council|Besut D]]
+|{{pop density|154168|1234|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|{{flagicon image|Flag of Dungun, Terengganu.svg}} [[Dungun District]]
+|[[Kuala Dungun]]
+|[[Dungun Municipal Council|Dungun M]]
+|{{pop density|158130|2735|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Hulu Terengganu, Terengganu.svg}} [[Hulu Terengganu District]]
+|[[Kuala Berang]]
+|[[Hulu Terengganu District Council|Hulu Terengganu D]]
+|{{pop density|69881|3875|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|{{flagicon image|Flag of Kemaman, Terengganu.svg}} [[Kemaman District]]
+|[[Chukai]]
+|[[Kemaman Municipal Council|Kemaman M]]
+|{{pop density|215582|2536|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|{{flagicon image|Flag of Kuala Nerus, Terengganu.svg}} [[Kuala Nerus District]]
+|[[Kuala Nerus]]
+|[[Kuala Terengganu City Council|Kuala Terengganu C]]
+|{{pop density|145643|398|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|{{flagicon image|Flag of Kuala Terengganu, Terengganu.svg}} [[Kuala Terengganu District]]
+|[[Kuala Terengganu]]
+|[[Kuala Terengganu City Council|Kuala Terengganu C]]
+|{{pop density|229780|210|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Marang, Terengganu.svg}} [[Marang District]]
+|[[Marang, Terengganu|Marang]]
+|[[Marang District Council|Marang D]]
+|{{pop density|116605|667|km2|disp=table|prec=1}}
+|-
+|{{flagicon image|Flag of Setiu, Terengganu.svg}} [[Setiu District]]
+|[[Bandar Permaisuri]]
+|[[Setiu District Council|Setiu D]]
+|{{pop density|59651|1304|km2|disp=table|prec=1}}
+|}
+
+===East Malaysia (Sarawak, Sabah and Labuan)===
+{| class="wikitable sortable"
+|-
+!Federal Territory/State
+!Division
+!Name
+!Capital
+!Council
+!Population (2020{{My10|2020kf}})<!--Include Non-Malaysian-->
+!Area (km<sup>2</sup>)
+!Density
+|-style="background:#faa;"
+| style="background:#fff;" colspan="1" | {{flag|Federal Territory (Malaysia)}}
+|{{N/A}}
+| {{flag|Labuan}}
+|[[Victoria, Labuan|Victoria]]
+|[[Labuan Corporation|Labuan C]]
+|{{pop density|95120|92|km2|disp=table|prec=1}}
+|-
+| colspan="1" rowspan="32" style="background:#fff;" | {{flag|Sabah}}
+|-
+| rowspan="9" | [[Interior Division|Interior]]
+|[[Beaufort District]]
+|[[Beaufort, Malaysia|Beaufort]]
+|[[Beaufort District Council|Beaufort D]]
+|{{pop density|75716|1735|km2|disp=table|prec=1}}
+|-
+|[[Keningau District]]
+|[[Keningau]]
+|[[Keningau District Council|Keningau D]]
+|{{pop density|150927|3533|km2|disp=table|prec=1}}
+|-
+|[[Kuala Penyu District]]
+|[[Kuala Penyu]]
+|[[Kuala Penyu District Council|Kuala Penyu D]]
+|{{pop density|23710|453|km2|disp=table|prec=1}}
+|-
+|[[Membakut District]]{{notetag|gazetted as full district on March 30, 2022<ref>{{cite news |last1=Dzulkifli |first1=Hayati |title=Membakut now a full district |url=https://www.dailyexpress.com.my/news/221670/membakut-now-a-full-district/ |work=Daily Express Malaysia |date=15 October 2023 }}</ref>}}
+|[[Membakut]]
+|[[Beaufort District Council|Beaufort D]]
+|
+|
+|
+|-
+|[[Nabawan District]]
+|[[Nabawan]]
+|[[Nabawan District Council|Nabawan D]]
+|{{pop density|28349|6089|km2|disp=table|prec=1}}
+|-
+|[[Sipitang District]]
+|[[Sipitang]]
+|[[Sipitang District Council|Sipitang D]]
+|{{pop density|37828|2732|km2|disp=table|prec=1}}
+|-
+|[[Sook District]]
+|[[Sook, Sabah|Sook]]
+|[[Keningau District Council|Keningau D]]
+|
+|-
+|[[Tambunan District]]
+|[[Tambunan]]
+|[[Tambunan District Council|Tambunan D]]
+|{{pop density|31573|1347|km2|disp=table|prec=1}}
+|-
+|[[Tenom District]]
+|[[Tenom]]
+|[[Tenom District Council|Tenom D]]
+|{{pop density|51328|2409|km2|disp=table|prec=1}}
+|-
+| rowspan="3" | [[Kudat Division|Kudat]]
+|[[Kota Marudu District]]
+|[[Kota Marudu]]
+|[[Kota Marudu District Council|Kota Marudu D]]
+|{{pop density|69528|1917|km2|disp=table|prec=1}}
+|-
+|[[Kudat District]]
+|[[Kudat]]
+|[[Kudat District Council|Kudat D]]
+|{{pop density|86410|1287|km2|disp=table|prec=1}}
+|-
+|[[Pitas District]]
+|[[Pitas, Malaysia|Pitas]]
+|[[Pitas District Council|Pitas D]]
+|{{pop density|36660|1419|km2|disp=table|prec=1}}
+|-
+| rowspan="6" | [[Sandakan Division|Sandakan]]
+|[[Beluran District]]
+|[[Beluran]]
+|[[Beluran District Council|Beluran D]]
+|{{pop density|77125|5498|km2|disp=table|prec=1}}
+|-
+|[[Kinabatangan District]]
+|[[Kinabatangan]]
+|[[Kinabatangan District Council|Kinabatangan D]]
+|{{pop density|143112|6605|km2|disp=table|prec=1}}
+|-
+|[[Paitan District]]
+|Paitan
+|[[Beluran District Council|Beluran D]]
+|
+|
+|
+|- style="background:#aaf;"
+|[[Sandakan District]]
+|[[Sandakan]]
+|[[Sandakan Municipal Council|Sandakan M]]
+|{{pop density|439050|2266|km2|disp=table|prec=1}}
+|-
+|[[Telupid District]]
+|[[Telupid]]
+|[[Telupid District Council|Telupid D]]
+|{{pop density|29241|2210|km2|disp=table|prec=1}}
+|-
+|[[Tongod District, Malaysia|Tongod District]]
+|[[Tongod]]
+|[[Kinabatangan District Council|Kinabatangan D]]
+|{{pop density|42742|10054|km2|disp=table|prec=1}}
+|-
+| rowspan="6" | [[Tawau Division|Tawau]] 
+|-
+|[[Kalabakan District]]
+|[[Kalabakan]]
+|[[Kalabakan District Council|Kalabakan D]]
+|{{pop density|48195|3885|km2|disp=table|prec=1}}
+|-
+|[[Kunak District]]
+|[[Kunak]]
+|[[Kunak District Council|Kunak D]]
+|{{pop density|68891|1134|km2|disp=table|prec=1}}
+|-
+|[[Lahad Datu District]]
+|[[Lahad Datu]]
+|[[Lahad Datu District Council|Lahad Datu D]]
+|{{pop density|229138|7444|km2|disp=table|prec=1}}
+|-
+|[[Semporna District]]
+|[[Semporna]]
+|[[Semporna District Council|Semporna D]]
+|{{pop density|166587|1145|km2|disp=table|prec=1}}
+|- style="background:#aaf;" 
+|[[Tawau District]]
+|[[Tawau]]
+|[[Tawau Municipal Council|Tawau M]]
+|{{pop density|372615|2240|km2|disp=table|prec=1}}
+|-
+| rowspan="7" | [[West Coast Division|West Coast]]
+|[[Kota Belud District]]
+|[[Kota Belud]]
+|[[Kota Belud District Council|Kota Belud D]]
+|{{pop density|107243|1386|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Kota Kinabalu District]]
+|[[Kota Kinabalu]]
+|[[Kota Kinabalu City Hall|Kota Kinabalu C]]
+|{{pop density|500421|351|km2|disp=table|prec=1}}
+|-
+|[[Papar District]]
+|[[Papar, Malaysia|Papar]]
+|[[Papar District Council|Papar D]]
+|{{pop density|150667|1243|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Penampang District]]
+|[[Penampang]]
+|[[Penampang Municipal Council|Penampang M]]
+|{{pop density|162174|425|km2|disp=table|prec=1}}
+|-
+|[[Putatan District]]
+|[[Putatan]]
+|[[Putatan District Council|Putatan D]]
+|{{pop density|68811|40|km2|disp=table|prec=1}}
+|-
+|[[Ranau District]]
+|[[Ranau]]
+|[[Ranau District Council|Ranau D]]
+|{{pop density|85077|3608|km2|disp=table|prec=1}}
+|-
+|[[Tuaran District]]
+|[[Tuaran]]
+|[[Tuaran District Council|Tuaran D]]
+|{{pop density|135665|1166|km2|disp=table|prec=1}}
+|-
+| colspan="1" rowspan="47" style="background:#fff;" | {{flag|Sarawak}}
+|-
+| rowspan="4" | [[Betong Division|Betong]]
+|[[Betong District, Malaysia|Betong District]]
+|[[Betong, Sarawak|Betong]]
+|[[Betong District Council|Betong D]]
+|{{pop density|36303|1547|km2|disp=table|prec=1}}
+|-
+|[[Kabong District]]
+|[[Kabong]]
+|[[Saratok District Council|Saratok D]]
+|{{pop density|18404|799|km2|disp=table|prec=1}}
+|-
+|[[Pusa District]]
+|[[Pusa]]
+|[[Betong District Council|Betong D]]
+|{{pop density|19557|947|km2|disp=table|prec=1}}
+|-
+|[[Saratok District]]
+|[[Saratok]]
+|[[Saratok District Council|Saratok D]]
+|{{pop density|23105|888|km2|disp=table|prec=1}}
+|-
+| rowspan="4" colspan=1| [[Bintulu Division|Bintulu]]
+|--style="background:#aaf;"
+|[[Bintulu District]]
+|[[Bintulu]]
+|[[Bintulu Development Authority|Bintulu DA]]
+|{{pop density|178646|1991|km2|disp=table|prec=1}}
+|-style="background:#aaf;"
+|[[Sebauh District]]
+|[[Sebauh]]
+|[[Bintulu Development Authority|Bintulu DA]]
+|{{pop density|29606|5229|km2|disp=table|prec=1}}
+|-style="background:#aaf;"
+|[[Tatau District]]
+|[[Tatau]]
+|[[Bintulu Development Authority|Bintulu DA]]
+|{{pop density|31920|4946|km2|disp=table|prec=1}}
+|-
+| rowspan="4" | [[Kapit Division|Kapit]]
+|[[Belaga District]]
+|[[Belaga, Sarawak|Belaga]]
+|[[Kapit District Council|Kapit D]]<ref>{{cite web|url=https://www.theborneopost.com/2016/01/23/call-for-belaga-to-have-own-district-council/|title=Call for Belaga to have own district council|author1=Lian Cheng|author2=Peter Sibon|publisher=The Borneo Post|date=23 January 2016|access-date=19 June 2018}}</ref>
+|{{pop density|22502|19050|km2|disp=table|prec=1}}
+|-
+|[[Kapit District]]
+|[[Kapit]]
+|[[Kapit District Council|Kapit D]]
+|{{pop density|36030|3973|km2|disp=table|prec=1}}
+|-
+|[[Song District, Malaysia|Song District]]
+|[[Song]]
+|[[Kapit District Council|Kapit D]]
+|{{pop density|9961|3935|km2|disp=table|prec=1}}
+|-
+|[[Bukit Mabong District]]<ref>{{cite web|url=http://www.recoda.com.my/news-events/event/launch-of-bukit-mabong-tunoh-kapit-by-the-chief-minister-of-sarawak/|title=Launch of Bukit Mabong, Tunoh, Kapit by the Chief Minister of Sarawak|publisher=Sarawak Regional Corridor Development Authority|date=3 November 2015|access-date=28 December 2016}}</ref>
+|[[Bukit Mabong]]
+|[[Kapit District Council|Kapit D]]
+|{{pop density|10155|11976|km2|disp=table|prec=1}}
+|-
+| rowspan="3" | [[Kuching Division|Kuching]]
+|[[Bau District, Sarawak|Bau District]]
+|[[Bau, Sarawak|Bau]]
+|[[Bau District Council|Bau D]]
+|{{pop density|52643|884|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Kuching District]]
+|[[Kuching]]
+|[[Kuching North City Hall|Kuching North C]]<br />[[Kuching South City Council|Kuching South C]]<hr>[[Padawan Municipal Council|Padawan M]]
+|{{pop density|609205|1498|km2|disp=table|prec=1}}
+|-
+|[[Lundu District]]
+|[[Lundu, Sarawak|Lundu]]
+|[[Lundu District Council|Lundu D]]
+|{{pop density|33479|1812|km2|disp=table|prec=1}}
+|-
+| rowspan="2" | [[Limbang Division|Limbang]]
+|[[Lawas District]]
+|[[Lawas]]
+|[[Lawas District Council|Lawas D]]
+|{{pop density|36604|3812|km2|disp=table|prec=1}}
+|-
+|[[Limbang District]]
+|[[Limbang]]
+|[[Limbang District Council|Limbang D]]
+|{{pop density|45061|3978|km2|disp=table|prec=1}}
+|-
+| rowspan="5" | [[Miri Division|Miri]]
+|[[Beluru District]]
+|[[Bakong, Sarawak|Bakong]] 
+|[[Marudi District Council|Marudi D]]
+|{{pop density|28695|4905|km2|disp=table|prec=1}}<ref>{{cite web |url=http://www.sarawak.com.my/info/rakansarawak/102001/subdistrict/index.shtml |title=Rakan Sarawak October 2001 |website=www.sarawak.com.my |archive-url=https://web.archive.org/web/20090606075912/http://www.sarawak.com.my/info/rakansarawak/102001/subdistrict/index.shtml |archive-date=2009-06-06}}</ref>
+|-
+|[[Marudi District]]
+|[[Marudi]]
+|[[Marudi District Council|Marudi D]]
+|{{pop density|18838|3079|km2|disp=table|prec=1}}
+|- style="background:#afa;"
+|[[Miri District]]
+|[[Miri, Malaysia|Miri]]
+|[[Subis District Council|Subis D]]<hr>[[Miri City Council|Miri C]]
+|{{pop density|248877|5143|km2|disp=table|prec=1}}
+|-
+|[[Subis District]]
+|[[Subis]]
+|[[Subis District Council|Subis D]]
+|{{pop density|57289|3821|km2|disp=table|prec=1}}<ref>{{Cite web|url=https://mdsubis.sarawak.gov.my/page-0-68-68-Latar-Belakang-Majlis-Daerah-Subis.html|title = Laman Web Rasmi Majlis Daerah Subis}}</ref>
+|-
+|[[Telang Usan District]]
+|[[Long Lama]]
+|[[Marudi District Council|Marudi D]]
+|{{pop density|17406|9829|km2|disp=table|prec=1}}<ref>{{cite news |last1=Abdullah |first1=Mohamad |title=Telang Usan District Office a game changer |url=https://www.theborneopost.com/2015/10/07/telang-usan-district-office-a-game-changer/ |work=Borneo Post Online |date=6 October 2015 }}</ref>
+|-
+| rowspan="5" | [[Mukah Division|Mukah]]
+|[[Dalat District]]
+|[[Dalat, Sarawak|Dalat]]
+|[[Dalat and Mukah District Council|Dalat and Mukah D]]
+|{{pop density|21147|905|km2|disp=table|prec=1}}
+|-
+|[[Daro District]]
+|[[Daro]]
+|[[Matu and Daro District Council|Matu and Daro D]]
+|{{pop density|19477|1226|km2|disp=table|prec=1}}
+|-
+|[[Matu District]]
+|[[Matu]]
+|[[Matu and Daro District Council|Matu and Daro D]]
+|{{pop density|16316|1600|km2|disp=table|prec=1}}
+|-
+|[[Mukah District]]
+|[[Mukah]]
+|[[Dalat and Mukah District Council|Dalat and Mukah D]]
+|{{pop density|42275|2536|km2|disp=table|prec=1}}
+|-
+|[[Tanjung Manis District]]
+|[[Belawai]]
+|[[Matu and Daro District Council|Matu and Daro D]]
+|{{pop density|7946|731|km2|disp=table|prec=1}}
+|-
+| rowspan="5" | [[Samarahan Division|Samarahan]]
+|[[Sebuyau District]]{{notetag|new district declared December 2021<ref>{{cite news |title=INFOGRAPHICS: NEW DISTRICTS IN SARAWAK |url=https://bernama.com/es/infographics/index.php?v=8534 |work=BERNAMA |date=13 December 2021 |language=en}}</ref>|name=sar2021}}
+|Sebuyau
+|[[Simunjan District Council|Sebuyau D]]
+|
+|
+|
+|-
+|[[Gedong District]]{{notetag|name=sar2021}}
+|Gedong
+|[[Gedong District Council|Gedong D]]
+|
+|
+|
+|--style="background:#aaf;"
+|[[Asajaya District]]
+|[[Asajaya]]
+|[[Kota Samarahan Municipal Council|Kota Samarahan M]]
+|{{pop density|33606|303|km2|disp=table|prec=1}}
+|-style="background:#aaf;"
+|[[Samarahan District]]
+|[[Samarahan Division|Samarahan]]
+|[[Kota Samarahan Municipal Council|Kota Samarahan M]]<ref>{{cite web|url=http://www.theborneopost.com/2016/11/11/its-kota-samarahan-municipal-council-effective-today/|title=It's Kota Samarahan Municipal Council effective today|author=Lian Cheng|publisher=The Borneo Post|date=11 November 2016|access-date=19 June 2018}}</ref><ref>{{cite web|url=https://mpks.sarawak.gov.my/|title=Laman Web Rasmi Majlis Perbandaran Kota Samarahan|website=mpks.sarawak.gov.my}}</ref>
+|{{pop density|128284|407|km2|disp=table|prec=1}}
+|-
+|[[Simunjan District]]
+|[[Simunjan District|Simunjan]]
+|[[Simunjan District Council|Simunjan D]]
+|{{pop density|36211|2218|km2|disp=table|prec=1}}
+|-
+| rowspan="4" | [[Sarikei Division|Sarikei]]
+|[[Julau District]]
+|[[Julau]]
+|[[Meradong and Julau District Council|Meradong and Julau D]]
+|{{pop density|15333|1703|km2|disp=table|prec=1}}
+|-
+|[[Meradong District]]
+|[[Bintangor, Sarawak|Bintangor]]
+|[[Meradong and Julau District Council|Meradong and Julau D]]
+|{{pop density|20299|719|km2|disp=table|prec=1}}
+|-
+|[[Pakan District]]
+|[[Pakan, Sarawak|Pakan]]
+|[[Meradong and Julau District Council|Meradong and Julau D]]
+|{{pop density|15462|925|km2|disp=table|prec=1}}
+|-
+|[[Sarikei District]]
+|[[Sarikei]]
+|[[Sarikei District Council|Sarikei D]]
+|{{pop density|44039|985|km2|disp=table|prec=1}}
+|-
+| rowspan="3" | [[Serian Division|Serian]]<ref>{{cite web|url=http://www.theborneopost.com/2015/04/12/serian-now-a-division/|title=Serian now a division|author=Samuel Aubrey|publisher=The Borneo Post|date=12 April 2015|access-date=15 May 2015}}</ref>
+|[[Serian District]]
+|[[Serian, Sarawak|Serian]]
+|[[Serian District Council|Serian D]]
+|{{pop density|85345|1749|km2|disp=table|prec=1}}
+|-
+|[[Tebedu District]]
+|[[Tebedu]]
+|[[Serian District Council|Serian D]]
+|{{pop density|25232|656|km2|disp=table|prec=1}}
+|-
+|[[Siburan District]]{{notetag|name=sar2021}}
+|[[Siburan]]
+|[[Serian District Council|Serian D]]
+|
+|
+|
+|-
+| rowspan="3" | [[Sibu Division|Sibu]]
+|[[Kanowit District]]
+|[[Kanowit]]
+|[[Kanowit District Council|Kanowit D]]
+|{{pop density|24700|2254|km2|disp=table|prec=1}}
+|- style="background:#aaf;"
+|[[Sibu District]]
+|[[Sibu]]
+|[[Sibu Municipal Council|Sibu D]]<hr>[[Sibu Rural District Council|Sibu Rural D (Sibu Jaya)]]
+|{{pop density|248064|2230|km2|disp=table|prec=1}}
+|-
+|[[Selangau District]]
+|[[Selangau]]
+|[[Sibu Rural District Council|Sibu Rural D]]
+|{{pop density|19844|3795|km2|disp=table|prec=1}}
+|-
+| rowspan="4" | [[Sri Aman Division|Sri Aman]]
+|[[Lubok Antu District]]
+|[[Lubok Antu]]
+|[[Lubok Antu District Council|Lubok Antu D]]
+|{{pop density|33479|3143|km2|disp=table|prec=1}}
+|-
+|[[Sri Aman District]]
+|[[Simanggang]]
+|[[Sri Aman District Council|Sri Aman D]]
+|{{pop density|61238|2324|km2|disp=table|prec=1}}
+|-
+|[[Pantu District]]{{notetag|name=sar2021}}
+|[[Pantu]]
+|[[Sri Aman District Council|Sri Aman D]]
+|{{pop density|11150|833|km2|disp=table|prec=1}}
+|-
+|[[Lingga District]] {{notetag|name=sar2021}}
+|[[Lingga, Malaysia|Lingga]]
+|[[Sri Aman District Council|Sri Aman D]]
+|
+|
+|
+|}
+
+==Mukim==
+11 states and two [[Federal Territories (Malaysia)|Federal Territories]] of the [[Peninsular Malaysia]] are divided into mukim (precinct for Putrajaya) that been administered by the district office and also the [[State governments of Malaysia|state government]]. For a list, see [[:Category:Mukims of Malaysia]]. However, two states and one federal territory in [[East Malaysia]] is not divided into mukim.
+
+==Gallery==
+===Labelled maps===
+<div class="center">
+{{Johor Labelled Map}}
+{{Clear}}
+{{Pahang Labelled Map|width=350}}
+{{Clear}}
+{{Penang district level labelled map|width=350|float=center}}
+{{Clear}}
+{{Sabah Labelled Map}}
+{{Clear}}
+{{Sarawak Labelled Map}}
+{{Clear}}
+{{Terengganu Labelled Map}}
+{{Clear}}
+{{Perak Labelled Map}}
+{{Clear}}
+{{Selangor Labelled Map}}
+</div>
+
+===Maps===
+<gallery>
+File:Districts of Johor.PNG|Districts in Johor
+File:Districts in Perak.svg|Districts in Perak
+File:Selangor districts numbered.svg|Districts in Selangor
+</gallery>
+
+==See also==
+* [[District]]
+* [[Amphoe]]
+* [[County (United States)|County]]
+* [[Governorate]], {{Lang|id|[[Kabupaten]]}}, {{Lang|de|[[Regierungsbezirk]]}}, [[Oblast]], [[Raion]], [[Vilayet]]
+* [[List of capitals in Malaysia]]
+* [[List of districts in Malaysia by population]]
+* [[Local government in Malaysia]]
+
+==Notes==
+{{reflist|group=note}}
+
+==References==
+{{reflist}}
+
+==Sources==
+* {{cite book |last1=Lo Vullo |first1=Eleonora |last2=Ho |first2=Chin Siong |last3=Chau |first3=Loon Wai |last4=Monforti-Ferrario |first4=Fabio |last5=Palermo |first5=Valentina |last6=Rivas Calvete |first6=Silvia |last7=Bertoldi |first7=Paolo |date=2022 |title=How to develop a Climate Action Plan (CAP) in Southeast Asia-Malaysia: A practical guide for Malaysian local governments: Guidebook |publisher=Publications Office of the European Union |doi=10.2760/50282 |doi-access=free |isbn=978-92-76-52424-3 }}
+
+== External links ==
+{{commons category|Districts of Malaysia}}
+* {{statoids|id=ymy|title=Districts of Malaysia}}
+
+{{Malaysia topics}}
+{{Articles on second-level administrative divisions of Asian countries}}
+{{Districts of Malaysia}}
+
+{{DEFAULTSORT:Districts in Malaysia}}
+[[Category:Districts of Malaysia| ]]
+[[Category:Subdivisions of Malaysia]]
+[[Category:Lists of subdivisions of Malaysia|Districts]]
+[[Category:Administrative divisions in Asia|Malaysia 2, Districts]]
+[[Category:Second-level administrative divisions by country|Districts, Malaysia]]

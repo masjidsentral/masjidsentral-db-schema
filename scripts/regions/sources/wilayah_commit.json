@@ -1,0 +1,84 @@
+[
+  {
+    "sha": "d68e8d5516f969d1905d0b2940f20034becb0db7",
+    "node_id": "C_kwDOBLcZldoAKGQ2OGU4ZDU1MTZmOTY5ZDE5MDVkMGIyOTQwZjIwMDM0YmVjYjBkYjc",
+    "commit": {
+      "author": {
+        "name": "cahya dsn",
+        "email": "cahyadsn@gmail.com",
+        "date": "2026-02-13T09:48:30Z"
+      },
+      "committer": {
+        "name": "cahya dsn",
+        "email": "cahyadsn@gmail.com",
+        "date": "2026-02-13T09:48:30Z"
+      },
+      "message": "update 2602131648 perbaikan nama desa Kwawor Kecil Mata Ata",
+      "tree": {
+        "sha": "3c8e6ca8e7668dcac1faca7f3e43015aeaa3ad54",
+        "url": "https://api.github.com/repos/cahyadsn/wilayah/git/trees/3c8e6ca8e7668dcac1faca7f3e43015aeaa3ad54"
+      },
+      "url": "https://api.github.com/repos/cahyadsn/wilayah/git/commits/d68e8d5516f969d1905d0b2940f20034becb0db7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/cahyadsn/wilayah/commits/d68e8d5516f969d1905d0b2940f20034becb0db7",
+    "html_url": "https://github.com/cahyadsn/wilayah/commit/d68e8d5516f969d1905d0b2940f20034becb0db7",
+    "comments_url": "https://api.github.com/repos/cahyadsn/wilayah/commits/d68e8d5516f969d1905d0b2940f20034becb0db7/comments",
+    "author": {
+      "login": "cahyadsn",
+      "id": 3700401,
+      "node_id": "MDQ6VXNlcjM3MDA0MDE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3700401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cahyadsn",
+      "html_url": "https://github.com/cahyadsn",
+      "followers_url": "https://api.github.com/users/cahyadsn/followers",
+      "following_url": "https://api.github.com/users/cahyadsn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cahyadsn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cahyadsn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cahyadsn/subscriptions",
+      "organizations_url": "https://api.github.com/users/cahyadsn/orgs",
+      "repos_url": "https://api.github.com/users/cahyadsn/repos",
+      "events_url": "https://api.github.com/users/cahyadsn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cahyadsn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cahyadsn",
+      "id": 3700401,
+      "node_id": "MDQ6VXNlcjM3MDA0MDE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3700401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cahyadsn",
+      "html_url": "https://github.com/cahyadsn",
+      "followers_url": "https://api.github.com/users/cahyadsn/followers",
+      "following_url": "https://api.github.com/users/cahyadsn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cahyadsn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cahyadsn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cahyadsn/subscriptions",
+      "organizations_url": "https://api.github.com/users/cahyadsn/orgs",
+      "repos_url": "https://api.github.com/users/cahyadsn/repos",
+      "events_url": "https://api.github.com/users/cahyadsn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cahyadsn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "000a1025f0249f2617dc286ffc67df54e47e5f2d",
+        "url": "https://api.github.com/repos/cahyadsn/wilayah/commits/000a1025f0249f2617dc286ffc67df54e47e5f2d",
+        "html_url": "https://github.com/cahyadsn/wilayah/commit/000a1025f0249f2617dc286ffc67df54e47e5f2d"
+      }
+    ]
+  }
+]
