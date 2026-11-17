@@ -2,7 +2,7 @@
 // Deterministic generator for migrations/006_regions.sql.
 // Reads ONLY the files under ./sources and ./my_cities_existing.sql as data (regex/JSON parsing, never executed).
 // Usage: node scripts/regions/generate.mjs   (from masjidsentral-db-schema/) -> writes migrations/006_regions.sql
-import { readFileSync, writeFileSync } from 'node:fs'
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 
@@ -33,7 +33,7 @@ function addState(id, name, country) {
 }
 function addCity(id, name, state, raw) {
   if (!states.has(state) && !state.startsWith('my-')) throw new Error('no state ' + state)
-  if (cities.has(id)) return false
+  if (cities.has(id)) throw new Error('dup city id ' + id)
   cities.set(id, { name, state, raw })
   return true
 }
@@ -41,19 +41,23 @@ function addCity(id, name, state, raw) {
 // ---------- Malaysia: Pos Malaysia post towns (AsyrafHussin/malaysia-postcodes, MIT) ----------
 const MY_STATE_ID = { 'Wp Kuala Lumpur': 'my-kul', Johor: 'my-jhr', Kedah: 'my-kdh', Kelantan: 'my-ktn', Melaka: 'my-mlk', 'Negeri Sembilan': 'my-nsn', Pahang: 'my-phg', 'Pulau Pinang': 'my-png', Perak: 'my-prk', Perlis: 'my-pls', Sabah: 'my-sbh', Sarawak: 'my-swk', Selangor: 'my-sgr', Terengganu: 'my-trg', 'Wp Labuan': 'my-lbn', 'Wp Putrajaya': 'my-pjy' }
 const myData = JSON.parse(src('my_postcodes_all.json')).state
+const MY_NAME_OVERRIDE = { 'Usm Pulau Pinang': 'USM Pulau Pinang' }
+// Dataset rows that are not separate towns: dropped, and mapped to the kept id
+const MY_SKIP = { 'my-kdh-bandar-bahru': 'my-kdh-bandar-baharu', 'my-swk-pusat-mel-miri': 'my-swk-miri' }
 const myNew = new Map() // id -> {name,state}
 for (const st of myData) {
   const sid = MY_STATE_ID[st.name]
   if (!sid) throw new Error('unmapped MY state ' + st.name)
   const seen = new Set()
   for (const c of st.city) {
-    const name = clean(c.name)
+    const name = MY_NAME_OVERRIDE[clean(c.name)] || clean(c.name)
     if (seen.has(name.toLowerCase())) throw new Error('dup town in state ' + sid + ': ' + name)
     seen.add(name.toLowerCase())
     const id = `${sid}-${slugify(name)}`
+    if (MY_SKIP[id]) continue
     if (myNew.has(id)) throw new Error('dup MY id ' + id)
     myNew.set(id, { name, state: sid })
-    addCity(id, name.replace(/'/g, "''"), sid, false)
+    addCity(id, name, sid, false)
   }
 }
 if (new Set(myData.map((s) => MY_STATE_ID[s.name])).size !== 16) throw new Error('dataset must cover 16 MY states')
@@ -64,35 +68,69 @@ const existing = [...readFileSync(path.join(here, 'my_cities_existing.sql'), 'ut
   .map((m) => ({ id: m[1], name: m[2].replace(/''/g, "'"), state: m[3] }))
 if (existing.length !== 612) throw new Error('expected 612 legacy MY cities, got ' + existing.length)
 
-// Explicit aliases for spelling variants of the same town (legacy slug -> new id)
-const MY_ALIAS = {
-  'my-kdh-alor-star': 'my-kdh-alor-setar', 'my-ktn-kota-bahru': 'my-ktn-kota-bharu', 'my-sgr-kuala-kubu-bharu': 'my-sgr-kuala-kubu-baru',
-  'my-sgr-port-klang': 'my-sgr-pelabuhan-klang', 'my-sgr-tanjung-karang': 'my-sgr-tanjong-karang', 'my-kul-kuala-kumpur': 'my-kul-kuala-lumpur',
-  'my-prk-sri-iskandar': 'my-prk-bandar-seri-iskandar', 'my-prk-seri-iskandar': 'my-prk-bandar-seri-iskandar', 'my-prk-tanjung-malim': 'my-prk-tanjong-malim',
-  'my-prk-pulau-pangkor': 'my-prk-pangkor', 'my-prk-pangkor-island': 'my-prk-pangkor', 'my-prk-tanjung-tualang': 'my-prk-tanjong-tualang',
-  'my-prk-tanjung-piandang': 'my-prk-tanjong-piandang', 'my-prk-tanjung-rambutan': 'my-prk-tanjong-rambutan', 
-  'my-prk-bagan-datuk': 'my-prk-bagan-datoh',  
-  'my-mlk-tanjung-kling': 'my-mlk-tanjong-kling', 'my-nsn-tanjung-ipoh': 'my-nsn-tanjong-ipoh', 
-  'my-trg-kuala-dungun': 'my-trg-dungun',  'my-trg-kemasik': 'my-trg-kemasek', 'my-trg-chukai': 'my-trg-cukai',
-   'my-png-george-town': 'my-png-pulau-pinang', 'my-png-georgetown': 'my-png-pulau-pinang', 
-  'my-png-tanjung-bungah': 'my-png-tanjong-bungah', 'my-jhr-pekan-nanas': 'my-jhr-pekan-nenas', 'my-jhr-simpang-renggam': 'my-jhr-simpang-rengam',
-  'my-jhr-sri-gading': 'my-jhr-seri-gading',  'my-phg-bandar-tun-razak': 'my-phg-bandar-tun-abdul-razak',
-  'my-phg-frasers-hill': 'my-phg-bukit-fraser', 'my-phg-fraser-s-hill': 'my-phg-bukit-fraser', 
-  'my-sbh-nabawah': 'my-sbh-nabawan', 'my-sbh-kimanis-mandahan': 'none', 'my-sbh-kinarut': 'none', 'my-sbh-kundasang': 'none', 'my-sbh-telipok': 'none',
-   'my-swk-asa-jaya': 'my-swk-asajaya', 'my-swk-sematan': 'none', 'my-kul-bukit-jalil': 'none',
-  
-}
-Object.assign(MY_ALIAS, { 'my-png-air-itam': 'my-png-ayer-itam', 'my-mlk-bandaraya-melaka': 'my-mlk-melaka', 'my-mlk-melaka-city': 'my-mlk-melaka', 'my-png-usm': 'my-png-usm-pulau-pinang', 'my-png-bukit-bendera': 'my-png-penang-hill', 'my-kdh-changlun': 'my-kdh-changloon', 'my-sgr-puncak-alam': 'my-sgr-bandar-puncak-alam', 'my-prk-cenderiang': 'my-prk-chenderiang', 'my-prk-teronoh': 'my-prk-tronoh' })
+// Explicit aliases for the legacy->new mapping table only (legacy id -> new id)
+const MY_ALIAS = { ...MY_SKIP }
+const alias = (to, ...froms) => { for (const f of froms) MY_ALIAS[f] = to }
+alias('my-kdh-alor-setar', 'my-kdh-alor-star')
+alias('my-ktn-kota-bharu', 'my-ktn-kota-bahru', 'my-ktn-kubang-kerian', 'my-ktn-pengkalan-chepa')
+alias('my-sgr-kuala-kubu-baru', 'my-sgr-kuala-kubu-bharu')
+alias('my-sgr-pelabuhan-klang', 'my-sgr-port-klang')
+alias('my-sgr-tanjong-karang', 'my-sgr-tanjung-karang')
+alias('my-sgr-sungai-ayer-tawar', 'my-sgr-sungai-air-tawar')
+alias('my-sgr-bandar-puncak-alam', 'my-sgr-puncak-alam')
+alias('my-kul-kuala-lumpur', 'my-kul-kuala-kumpur', 'my-kul-cheras', 'my-kul-kepong', 'my-kul-bukit-bintang', 'my-kul-datuk-keramat', 'my-kul-keramat', 'my-kul-wangsa-maju', 'my-kul-jinjang-utara', 'my-kul-wp-kuala-lumpur', 'my-kul-wilayah-persekutuan', ...[1, 2, 3, 4, 5, 6].map((n) => `my-kul-zon-${n}`))
+alias('my-lbn-labuan', 'my-lbn-wp-labuan', 'my-lbn-wilayah-persekutuan-labuan')
+alias('my-pjy-putrajaya', 'my-pjy-wilayah-persekutuan-putrajaya')
+alias('my-mlk-melaka', 'my-mlk-malacca', 'my-mlk-bachang', 'my-mlk-bacang', 'my-mlk-batu-berendam', 'my-mlk-bukit-beruang', 'my-mlk-bukit-katil', 'my-mlk-klebang-besar', 'my-mlk-telok-mas', 'my-mlk-ayer-molek', 'my-mlk-melaka-tengah', 'my-mlk-bandaraya-melaka', 'my-mlk-melaka-city')
+alias('my-mlk-tanjong-kling', 'my-mlk-tanjung-kling')
+alias('my-jhr-johor-bahru', 'my-jhr-skudai', 'my-jhr-kempas', 'my-jhr-tampoi')
+alias('my-jhr-pekan-nenas', 'my-jhr-pekan-nanas')
+alias('my-jhr-simpang-rengam', 'my-jhr-simpang-renggam')
+alias('my-jhr-seri-gading', 'my-jhr-sri-gading')
+alias('my-kdh-langkawi', 'my-kdh-kuah')
+alias('my-kdh-changloon', 'my-kdh-changlun')
+alias('my-prk-bruas', 'my-prk-beruas')
+alias('my-prk-trong', 'my-prk-terong')
+alias('my-prk-tronoh', 'my-prk-teronoh')
+alias('my-prk-chenderiang', 'my-prk-cenderiang')
+alias('my-prk-simpang-ampat-semanggol', 'my-prk-simpang-empat-semanggol')
+alias('my-prk-ipoh', 'my-prk-menglembu', 'my-prk-lahat', 'my-prk-bercham')
+alias('my-prk-bandar-seri-iskandar', 'my-prk-sri-iskandar', 'my-prk-seri-iskandar')
+alias('my-prk-tanjong-malim', 'my-prk-tanjung-malim')
+alias('my-prk-pangkor', 'my-prk-pulau-pangkor', 'my-prk-pangkor-island')
+alias('my-prk-tanjong-tualang', 'my-prk-tanjung-tualang')
+alias('my-prk-tanjong-piandang', 'my-prk-tanjung-piandang')
+alias('my-prk-tanjong-rambutan', 'my-prk-tanjung-rambutan')
+alias('my-prk-bagan-datoh', 'my-prk-bagan-datuk')
+alias('my-sbh-kota-kinabatangan', 'my-sbh-kinabatangan', 'my-sbh-san---kinabatangan')
+alias('my-sbh-nabawan', 'my-sbh-nabawah')
+alias('my-swk-kota-samarahan', 'my-swk-samarahan')
+alias('my-swk-niah', 'my-swk-batu-niah')
+alias('my-swk-asajaya', 'my-swk-asa-jaya')
+alias('my-trg-cukai', 'my-trg-kemaman', 'my-trg-kuala-kemaman', 'my-trg-chukai')
+alias('my-trg-dungun', 'my-trg-kuala-dungun')
+alias('my-trg-kemasek', 'my-trg-kemasik')
+alias('my-phg-kuala-lipis', 'my-phg-lipis')
+alias('my-phg-tanah-rata', 'my-phg-cameron-highlands')
+alias('my-phg-bandar-tun-abdul-razak', 'my-phg-bandar-tun-razak')
+alias('my-phg-bukit-fraser', 'my-phg-frasers-hill', 'my-phg-fraser-s-hill')
+alias('my-nsn-seremban', 'my-nsn-senawang', 'my-nsn-ampangan', 'my-nsn-sendayan')
+alias('my-nsn-tanjong-ipoh', 'my-nsn-tanjung-ipoh')
+alias('my-png-pulau-pinang', 'my-png-george-town', 'my-png-georgetown')
+alias('my-png-ayer-itam', 'my-png-air-itam')
+alias('my-png-tanjong-bungah', 'my-png-tanjung-bungah')
+alias('my-png-usm-pulau-pinang', 'my-png-usm')
+alias('my-png-penang-hill', 'my-png-bukit-bendera')
 const newIds = new Set(myNew.keys())
-const noneIds = new Set()
+for (const [from, to] of Object.entries(MY_ALIAS)) if (!newIds.has(to)) throw new Error(`alias target missing: ${from} -> ${to}`)
 function mapLegacy(e) {
   if (newIds.has(e.id)) return e.id
-  if (MY_ALIAS[e.id] !== undefined) return MY_ALIAS[e.id] === 'none' ? 'none' : (newIds.has(MY_ALIAS[e.id]) ? MY_ALIAS[e.id] : 'none')
+  if (MY_ALIAS[e.id]) return MY_ALIAS[e.id]
   // strip "XXX - " zone prefix, a trailing " District", a leading "Mukim "
   const stripped = e.name.replace(/^[A-Za-z]{2,4} - /, '').replace(/ District$/i, '').replace(/^Mukim /i, '')
   const id = `${e.state}-${slugify(stripped)}`
   if (newIds.has(id)) return id
-  if (MY_ALIAS[id] && newIds.has(MY_ALIAS[id])) return MY_ALIAS[id]
+  if (MY_ALIAS[id]) return MY_ALIAS[id]
   return 'none'
 }
 const legacyMap = existing.map((e) => ({ ...e, to: mapLegacy(e) })).sort((a, b) => (a.id < b.id ? -1 : 1))
@@ -104,7 +142,7 @@ const nameFixes = [...myNew.entries()].filter(([id, c]) => legacyById.has(id) &&
 // ---------- Singapore (URA Master Plan 2019 planning areas) ----------
 addState('sg-singapore', 'Singapore', 'sg')
 const sg = JSON.parse(src('sg_planning_areas_2019.geojson')).features.map((f) => f.properties.PLN_AREA_N)
-for (const n of sg) addCity(`sg-singapore-${slugify(titleCase(n), 'and')}`, titleCase(n).replace(/'/g, "''"), 'sg-singapore', false)
+for (const n of sg) addCity(`sg-singapore-${slugify(titleCase(n), 'and')}`, titleCase(n), 'sg-singapore', false)
 
 // ---------- Brunei (4 districts, 39 mukims) ----------
 const bnStates = { 'Brunei-Muara': 'bn-brunei-muara', Belait: 'bn-belait', Tutong: 'bn-tutong', Temburong: 'bn-temburong' }
@@ -119,7 +157,7 @@ for (const l of src('bn_mukims_wikipedia.wikitext').split('\n')) {
   bnRows.push({ state: bnStates[bnDistrict], name: clean(m[1]) })
 }
 if (bnRows.length !== 39) throw new Error('expected 39 mukims, got ' + bnRows.length)
-for (const r of bnRows) addCity(`${r.state}-${slugify(r.name)}`, r.name.replace(/'/g, "''"), r.state, false)
+for (const r of bnRows) addCity(`${r.state}-${slugify(r.name)}`, r.name, r.state, false)
 addCity('bn-brunei-muara-bandar-seri-begawan', 'Bandar Seri Begawan', 'bn-brunei-muara', false)
 
 // ---------- Indonesia (Kepmendagri 300.2.2-2138/2025 via cahyadsn/wilayah) ----------
@@ -142,7 +180,7 @@ for (const m of wil.matchAll(/\('(\d{2})\.(\d{2})','([^']*)'\)/g)) {
   if (!isKab && !isKota) throw new Error('unexpected name ' + name)
   const core = name.replace(/^(Kabupaten|Kota)( Administrasi)? /, '')
   if (isKab) kab++; else kota++
-  addCity(`${sid}-${isKab ? 'kab' : 'kota'}-${slugify(core)}`, name.replace(/'/g, "''"), sid, false)
+  addCity(`${sid}-${isKab ? 'kab' : 'kota'}-${slugify(core)}`, name, sid, false)
 }
 
 // ---------- validate + emit ----------
@@ -186,8 +224,7 @@ for (const [id, s] of stateRows) {
 }
 lines.push('', '-- Cities')
 for (const [id, c] of cityRows) {
-  // names are already SQL-escaped ('' form) at insertion
-  lines.push(`INSERT OR IGNORE INTO cities (id, name, state_id) VALUES (${q(id)}, '${c.name}', ${q(c.state)});`)
+  lines.push(`INSERT OR IGNORE INTO cities (id, name, state_id) VALUES (${q(id)}, ${q(c.name)}, ${q(c.state)});`)
 }
 lines.push('', '-- Malaysia: a row with the same id but a different name (legacy ALL-CAPS or typo) gets the clean name')
 for (const [id, c] of [...myNew.entries()].sort((a, b) => (a[0] < b[0] ? -1 : 1))) lines.push(`UPDATE cities SET name = ${q(c.name)} WHERE id = ${q(id)} AND name <> ${q(c.name)};`)
@@ -197,4 +234,11 @@ writeFileSync(outFile, lines.join('\n') + '\n')
 const md = ['| Legacy id | Legacy name | New id |', '|---|---|---|']
 for (const m of legacyMap) md.push(`| \`${m.id}\` | ${m.name.replace(/\|/g, '\\|')} | ${m.to === 'none' ? 'none' : '`' + m.to + '`'} |`)
 writeFileSync(path.join(here, 'my_legacy_mapping.md'), md.join('\n') + '\n')
+// Test fixture: the real 612 legacy rows, so the api test can run 006 over them (the worker runtime cannot read .sql files)
+const fixtureDir = path.resolve(here, '../../../api/tests/fixtures')
+if (existsSync(path.resolve(here, '../../../api/tests'))) {
+  mkdirSync(fixtureDir, { recursive: true })
+  const rows = existing.map((e) => `  [${JSON.stringify(e.id)}, ${JSON.stringify(e.name)}, ${JSON.stringify(e.state)}],`)
+  writeFileSync(path.join(fixtureDir, 'legacy-my-cities.ts'), `// GENERATED by masjidsentral-db-schema/scripts/regions/generate.mjs from my_cities_existing.sql. Do not edit.\nexport const LEGACY_MY_CITIES: Array<[id: string, name: string, state_id: string]> = [\n${rows.join('\n')}\n]\n`)
+}
 console.log(JSON.stringify(counts, null, 1))

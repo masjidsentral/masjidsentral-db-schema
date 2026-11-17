@@ -9,7 +9,7 @@
 --  BN: Wikipedia "Mukims of Brunei" (en.wikipedia.org/wiki/Mukims_of_Brunei, 4 districts, 39 mukims, citing the Brunei Information Dept district lists) + Bandar Seri Begawan.
 --  MY: Pos Malaysia post towns from github.com/AsyrafHussin/malaysia-postcodes all.json (MIT licence, commit 842ca633a72571d8b1cc7e445eefd536cb773f19, 2026-03-06). One city per (state, post town).
 --
--- Counts: my: 16 states / 444 cities; sg: 1 states / 55 cities; bn: 4 states / 40 cities; id: 38 states / 514 cities.
+-- Counts: my: 16 states / 442 cities; sg: 1 states / 55 cities; bn: 4 states / 40 cities; id: 38 states / 514 cities.
 
 -- Malaysia: drop legacy cities that are not in the new list and are unreferenced
 DELETE FROM cities
@@ -74,7 +74,6 @@ WHERE state_id LIKE 'my-%'
     'my-kdh-ayer-hitam',
     'my-kdh-baling',
     'my-kdh-bandar-baharu',
-    'my-kdh-bandar-bahru',
     'my-kdh-bedong',
     'my-kdh-bukit-kayu-hitam',
     'my-kdh-changloon',
@@ -422,7 +421,6 @@ WHERE state_id LIKE 'my-%'
     'my-swk-nanga-medamit',
     'my-swk-niah',
     'my-swk-pusa',
-    'my-swk-pusat-mel-miri',
     'my-swk-roban',
     'my-swk-saratok',
     'my-swk-sarikei',
@@ -1120,7 +1118,6 @@ INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-kdh-alor-setar', '
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-kdh-ayer-hitam', 'Ayer Hitam', 'my-kdh');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-kdh-baling', 'Baling', 'my-kdh');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-kdh-bandar-baharu', 'Bandar Baharu', 'my-kdh');
-INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-kdh-bandar-bahru', 'Bandar Bahru', 'my-kdh');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-kdh-bedong', 'Bedong', 'my-kdh');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-kdh-bukit-kayu-hitam', 'Bukit Kayu Hitam', 'my-kdh');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-kdh-changloon', 'Changloon', 'my-kdh');
@@ -1282,7 +1279,7 @@ INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-png-simpang-ampat'
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-png-sungai-jawi', 'Sungai Jawi', 'my-png');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-png-tanjong-bungah', 'Tanjong Bungah', 'my-png');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-png-tasek-gelugor', 'Tasek Gelugor', 'my-png');
-INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-png-usm-pulau-pinang', 'Usm Pulau Pinang', 'my-png');
+INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-png-usm-pulau-pinang', 'USM Pulau Pinang', 'my-png');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-prk-ayer-tawar', 'Ayer Tawar', 'my-prk');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-prk-bagan-datoh', 'Bagan Datoh', 'my-prk');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-prk-bagan-serai', 'Bagan Serai', 'my-prk');
@@ -1468,7 +1465,6 @@ INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-swk-mukah', 'Mukah
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-swk-nanga-medamit', 'Nanga Medamit', 'my-swk');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-swk-niah', 'Niah', 'my-swk');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-swk-pusa', 'Pusa', 'my-swk');
-INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-swk-pusat-mel-miri', 'Pusat Mel Miri', 'my-swk');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-swk-roban', 'Roban', 'my-swk');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-swk-saratok', 'Saratok', 'my-swk');
 INSERT OR IGNORE INTO cities (id, name, state_id) VALUES ('my-swk-sarikei', 'Sarikei', 'my-swk');
@@ -1621,7 +1617,6 @@ UPDATE cities SET name = 'Alor Setar' WHERE id = 'my-kdh-alor-setar' AND name <>
 UPDATE cities SET name = 'Ayer Hitam' WHERE id = 'my-kdh-ayer-hitam' AND name <> 'Ayer Hitam';
 UPDATE cities SET name = 'Baling' WHERE id = 'my-kdh-baling' AND name <> 'Baling';
 UPDATE cities SET name = 'Bandar Baharu' WHERE id = 'my-kdh-bandar-baharu' AND name <> 'Bandar Baharu';
-UPDATE cities SET name = 'Bandar Bahru' WHERE id = 'my-kdh-bandar-bahru' AND name <> 'Bandar Bahru';
 UPDATE cities SET name = 'Bedong' WHERE id = 'my-kdh-bedong' AND name <> 'Bedong';
 UPDATE cities SET name = 'Bukit Kayu Hitam' WHERE id = 'my-kdh-bukit-kayu-hitam' AND name <> 'Bukit Kayu Hitam';
 UPDATE cities SET name = 'Changloon' WHERE id = 'my-kdh-changloon' AND name <> 'Changloon';
@@ -1783,7 +1778,7 @@ UPDATE cities SET name = 'Simpang Ampat' WHERE id = 'my-png-simpang-ampat' AND n
 UPDATE cities SET name = 'Sungai Jawi' WHERE id = 'my-png-sungai-jawi' AND name <> 'Sungai Jawi';
 UPDATE cities SET name = 'Tanjong Bungah' WHERE id = 'my-png-tanjong-bungah' AND name <> 'Tanjong Bungah';
 UPDATE cities SET name = 'Tasek Gelugor' WHERE id = 'my-png-tasek-gelugor' AND name <> 'Tasek Gelugor';
-UPDATE cities SET name = 'Usm Pulau Pinang' WHERE id = 'my-png-usm-pulau-pinang' AND name <> 'Usm Pulau Pinang';
+UPDATE cities SET name = 'USM Pulau Pinang' WHERE id = 'my-png-usm-pulau-pinang' AND name <> 'USM Pulau Pinang';
 UPDATE cities SET name = 'Ayer Tawar' WHERE id = 'my-prk-ayer-tawar' AND name <> 'Ayer Tawar';
 UPDATE cities SET name = 'Bagan Datoh' WHERE id = 'my-prk-bagan-datoh' AND name <> 'Bagan Datoh';
 UPDATE cities SET name = 'Bagan Serai' WHERE id = 'my-prk-bagan-serai' AND name <> 'Bagan Serai';
@@ -1969,7 +1964,6 @@ UPDATE cities SET name = 'Mukah' WHERE id = 'my-swk-mukah' AND name <> 'Mukah';
 UPDATE cities SET name = 'Nanga Medamit' WHERE id = 'my-swk-nanga-medamit' AND name <> 'Nanga Medamit';
 UPDATE cities SET name = 'Niah' WHERE id = 'my-swk-niah' AND name <> 'Niah';
 UPDATE cities SET name = 'Pusa' WHERE id = 'my-swk-pusa' AND name <> 'Pusa';
-UPDATE cities SET name = 'Pusat Mel Miri' WHERE id = 'my-swk-pusat-mel-miri' AND name <> 'Pusat Mel Miri';
 UPDATE cities SET name = 'Roban' WHERE id = 'my-swk-roban' AND name <> 'Roban';
 UPDATE cities SET name = 'Saratok' WHERE id = 'my-swk-saratok' AND name <> 'Saratok';
 UPDATE cities SET name = 'Sarikei' WHERE id = 'my-swk-sarikei' AND name <> 'Sarikei';

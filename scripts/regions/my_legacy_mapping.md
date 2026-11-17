@@ -24,7 +24,7 @@
 | `my-jhr-johor-bahru` | JOHOR BAHRU | `my-jhr-johor-bahru` |
 | `my-jhr-kahang` | Kahang | `my-jhr-kahang` |
 | `my-jhr-kayu-ara-pasong` | Kayu Ara Pasong | none |
-| `my-jhr-kempas` | KEMPAS | none |
+| `my-jhr-kempas` | KEMPAS | `my-jhr-johor-bahru` |
 | `my-jhr-kluang` | Kluang | `my-jhr-kluang` |
 | `my-jhr-kota-tinggi` | Kota Tinggi | `my-jhr-kota-tinggi` |
 | `my-jhr-kukup` | Kukup | `my-jhr-kukup` |
@@ -49,10 +49,10 @@
 | `my-jhr-semerah` | Semerah | `my-jhr-semerah` |
 | `my-jhr-senai` | Senai | `my-jhr-senai` |
 | `my-jhr-simpang-renggam` | Simpang Renggam | `my-jhr-simpang-rengam` |
-| `my-jhr-skudai` | Skudai | none |
+| `my-jhr-skudai` | Skudai | `my-jhr-johor-bahru` |
 | `my-jhr-sri-gading` | Sri Gading | `my-jhr-seri-gading` |
 | `my-jhr-sungai-mati` | Sungai Mati | `my-jhr-sungai-mati` |
-| `my-jhr-tampoi` | TAMPOI | none |
+| `my-jhr-tampoi` | TAMPOI | `my-jhr-johor-bahru` |
 | `my-jhr-tangkak` | Tangkak | `my-jhr-tangkak` |
 | `my-jhr-ulu-tiram` | Ulu Tiram | `my-jhr-ulu-tiram` |
 | `my-jhr-yong-peng` | Yong Peng | `my-jhr-yong-peng` |
@@ -75,7 +75,7 @@
 | `my-kdh-kota-kuala-muda` | Kota Kuala Muda | `my-kdh-kota-kuala-muda` |
 | `my-kdh-kota-sarang-semut` | Kota Sarang Semut | `my-kdh-kota-sarang-semut` |
 | `my-kdh-kota-setar` | KOTA SETAR | none |
-| `my-kdh-kuah` | Kuah | none |
+| `my-kdh-kuah` | Kuah | `my-kdh-langkawi` |
 | `my-kdh-kuala` | Kuala | none |
 | `my-kdh-kuala-kedah` | KUALA KEDAH | `my-kdh-kuala-kedah` |
 | `my-kdh-kuala-ketil` | Kuala Ketil | `my-kdh-kuala-ketil` |
@@ -117,7 +117,7 @@
 | `my-ktn-kota-setar` | Kota Setar | none |
 | `my-ktn-kuala-balah` | Kuala Balah | `my-ktn-kuala-balah` |
 | `my-ktn-kuala-krai` | Kuala Krai | `my-ktn-kuala-krai` |
-| `my-ktn-kubang-kerian` | Kubang Kerian | none |
+| `my-ktn-kubang-kerian` | Kubang Kerian | `my-ktn-kota-bharu` |
 | `my-ktn-lojing` | Lojing | none |
 | `my-ktn-lojing-highlands` | Lojing Highlands | none |
 | `my-ktn-machang` | Machang | `my-ktn-machang` |
@@ -125,7 +125,7 @@
 | `my-ktn-pasir-mas` | Pasir Mas | `my-ktn-pasir-mas` |
 | `my-ktn-pasir-puteh` | Pasir Puteh | `my-ktn-pasir-puteh` |
 | `my-ktn-pasir-tumboh` | Pasir Tumboh | none |
-| `my-ktn-pengkalan-chepa` | Pengkalan Chepa | none |
+| `my-ktn-pengkalan-chepa` | Pengkalan Chepa | `my-ktn-kota-bharu` |
 | `my-ktn-pulai-chondong` | Pulai Chondong | `my-ktn-pulai-chondong` |
 | `my-ktn-rantau-panjang` | Rantau Panjang | `my-ktn-rantau-panjang` |
 | `my-ktn-tanah-merah` | Tanah Merah | `my-ktn-tanah-merah` |
@@ -134,59 +134,59 @@
 | `my-ktn-tumphttps` | Tumphttps: | none |
 | `my-ktn-wakaf-bharu` | Wakaf Bharu | `my-ktn-wakaf-bharu` |
 | `my-kul-batu-caves` | Batu Caves | none |
-| `my-kul-bukit-bintang` | Bukit Bintang | none |
+| `my-kul-bukit-bintang` | Bukit Bintang | `my-kul-kuala-lumpur` |
 | `my-kul-bukit-jalil` | BUKIT JALIL | none |
-| `my-kul-cheras` | Cheras | none |
-| `my-kul-datuk-keramat` | Datuk Keramat | none |
+| `my-kul-cheras` | Cheras | `my-kul-kuala-lumpur` |
+| `my-kul-datuk-keramat` | Datuk Keramat | `my-kul-kuala-lumpur` |
 | `my-kul-gombak` | GOMBAK | none |
-| `my-kul-jinjang-utara` | Jinjang Utara | none |
-| `my-kul-kepong` | Kepong | none |
-| `my-kul-keramat` | KERAMAT | none |
+| `my-kul-jinjang-utara` | Jinjang Utara | `my-kul-kuala-lumpur` |
+| `my-kul-kepong` | Kepong | `my-kul-kuala-lumpur` |
+| `my-kul-keramat` | KERAMAT | `my-kul-kuala-lumpur` |
 | `my-kul-kuala-kumpur` | Kuala Kumpur | `my-kul-kuala-lumpur` |
 | `my-kul-kuala-lumpur` | KUALA LUMPUR | `my-kul-kuala-lumpur` |
 | `my-kul-setapak` | SETAPAK | `my-kul-setapak` |
-| `my-kul-wangsa-maju` | WANGSA MAJU | none |
-| `my-kul-wilayah-persekutuan` | Wilayah Persekutuan | none |
-| `my-kul-wp-kuala-lumpur` | WP KUALA LUMPUR | none |
-| `my-kul-zon-1` | ZON 1 | none |
-| `my-kul-zon-2` | ZON 2 | none |
-| `my-kul-zon-3` | ZON 3 | none |
-| `my-kul-zon-4` | ZON 4 | none |
-| `my-kul-zon-5` | ZON 5 | none |
-| `my-kul-zon-6` | ZON 6 | none |
+| `my-kul-wangsa-maju` | WANGSA MAJU | `my-kul-kuala-lumpur` |
+| `my-kul-wilayah-persekutuan` | Wilayah Persekutuan | `my-kul-kuala-lumpur` |
+| `my-kul-wp-kuala-lumpur` | WP KUALA LUMPUR | `my-kul-kuala-lumpur` |
+| `my-kul-zon-1` | ZON 1 | `my-kul-kuala-lumpur` |
+| `my-kul-zon-2` | ZON 2 | `my-kul-kuala-lumpur` |
+| `my-kul-zon-3` | ZON 3 | `my-kul-kuala-lumpur` |
+| `my-kul-zon-4` | ZON 4 | `my-kul-kuala-lumpur` |
+| `my-kul-zon-5` | ZON 5 | `my-kul-kuala-lumpur` |
+| `my-kul-zon-6` | ZON 6 | `my-kul-kuala-lumpur` |
 | `my-lbn-labuan` | LABUAN | `my-lbn-labuan` |
-| `my-lbn-wilayah-persekutuan-labuan` | WILAYAH PERSEKUTUAN LABUAN | none |
-| `my-lbn-wp-labuan` | WP Labuan | none |
+| `my-lbn-wilayah-persekutuan-labuan` | WILAYAH PERSEKUTUAN LABUAN | `my-lbn-labuan` |
+| `my-lbn-wp-labuan` | WP Labuan | `my-lbn-labuan` |
 | `my-mlk-alor-gajah` | Alor Gajah | `my-mlk-alor-gajah` |
 | `my-mlk-asahan` | Asahan | `my-mlk-asahan` |
 | `my-mlk-ayer-keroh` | Ayer Keroh | `my-mlk-ayer-keroh` |
-| `my-mlk-ayer-molek` | Ayer Molek | none |
-| `my-mlk-bacang` | Bacang | none |
-| `my-mlk-bachang` | Bachang | none |
+| `my-mlk-ayer-molek` | Ayer Molek | `my-mlk-melaka` |
+| `my-mlk-bacang` | Bacang | `my-mlk-melaka` |
+| `my-mlk-bachang` | Bachang | `my-mlk-melaka` |
 | `my-mlk-bandaraya-melaka` | BANDARAYA MELAKA | `my-mlk-melaka` |
 | `my-mlk-batang-melaka` | Batang Melaka | none |
-| `my-mlk-batu-berendam` | Batu Berendam | none |
+| `my-mlk-batu-berendam` | Batu Berendam | `my-mlk-melaka` |
 | `my-mlk-bemban` | Bemban | `my-mlk-bemban` |
-| `my-mlk-bukit-beruang` | Bukit Beruang | none |
-| `my-mlk-bukit-katil` | Bukit Katil | none |
+| `my-mlk-bukit-beruang` | Bukit Beruang | `my-mlk-melaka` |
+| `my-mlk-bukit-katil` | Bukit Katil | `my-mlk-melaka` |
 | `my-mlk-durian-tunggal` | Durian Tunggal | `my-mlk-durian-tunggal` |
 | `my-mlk-jasin` | Jasin | `my-mlk-jasin` |
-| `my-mlk-klebang-besar` | Klebang Besar | none |
+| `my-mlk-klebang-besar` | Klebang Besar | `my-mlk-melaka` |
 | `my-mlk-kuala-sungai-baru` | Kuala Sungai Baru | `my-mlk-kuala-sungai-baru` |
 | `my-mlk-lubok-china` | Lubok China | `my-mlk-lubok-china` |
-| `my-mlk-malacca` | Malacca | none |
+| `my-mlk-malacca` | Malacca | `my-mlk-melaka` |
 | `my-mlk-masjid-tanah` | Masjid Tanah | `my-mlk-masjid-tanah` |
 | `my-mlk-melaka` | Melaka | `my-mlk-melaka` |
 | `my-mlk-melaka-city` | MELAKA CITY | `my-mlk-melaka` |
-| `my-mlk-melaka-tengah` | Melaka Tengah | none |
+| `my-mlk-melaka-tengah` | Melaka Tengah | `my-mlk-melaka` |
 | `my-mlk-merlimau` | Merlimau | `my-mlk-merlimau` |
 | `my-mlk-parit-penghulu` | Parit Penghulu | none |
 | `my-mlk-pekan-asahan` | Pekan Asahan | none |
 | `my-mlk-sungai-udang` | Sungai Udang | `my-mlk-sungai-udang` |
 | `my-mlk-tampin` | Tampin | none |
 | `my-mlk-tanjung-kling` | Tanjung Kling | `my-mlk-tanjong-kling` |
-| `my-mlk-telok-mas` | Telok Mas | none |
-| `my-nsn-ampangan` | Ampangan | none |
+| `my-mlk-telok-mas` | Telok Mas | `my-mlk-melaka` |
+| `my-nsn-ampangan` | Ampangan | `my-nsn-seremban` |
 | `my-nsn-bahau` | Bahau | `my-nsn-bahau` |
 | `my-nsn-bandar-baru-enstek` | Bandar Baru Enstek | `my-nsn-bandar-baru-enstek` |
 | `my-nsn-bandar-seri-jempol` | Bandar Seri Jempol | `my-nsn-bandar-seri-jempol` |
@@ -211,8 +211,8 @@
 | `my-nsn-rantau` | Rantau | `my-nsn-rantau` |
 | `my-nsn-rembau` | Rembau | `my-nsn-rembau` |
 | `my-nsn-rompin` | Rompin | `my-nsn-rompin` |
-| `my-nsn-senawang` | Senawang | none |
-| `my-nsn-sendayan` | SENDAYAN | none |
+| `my-nsn-senawang` | Senawang | `my-nsn-seremban` |
+| `my-nsn-sendayan` | SENDAYAN | `my-nsn-seremban` |
 | `my-nsn-seremban` | Seremban | `my-nsn-seremban` |
 | `my-nsn-seri-menanti` | Seri Menanti | none |
 | `my-nsn-si-rusa` | Si Rusa | `my-nsn-si-rusa` |
@@ -230,7 +230,7 @@
 | `my-phg-benta` | Benta | `my-phg-benta` |
 | `my-phg-bentong` | Bentong | `my-phg-bentong` |
 | `my-phg-brinchang` | Brinchang | `my-phg-brinchang` |
-| `my-phg-cameron-highlands` | CAMERON HIGHLANDS | none |
+| `my-phg-cameron-highlands` | CAMERON HIGHLANDS | `my-phg-tanah-rata` |
 | `my-phg-chenor` | Chenor | `my-phg-chenor` |
 | `my-phg-chukai` | Chukai | none |
 | `my-phg-damak` | Damak | `my-phg-damak` |
@@ -248,7 +248,7 @@
 | `my-phg-kuala-rompin` | Kuala Rompin | `my-phg-kuala-rompin` |
 | `my-phg-kuantan` | Kuantan | `my-phg-kuantan` |
 | `my-phg-lanchang` | Lanchang | `my-phg-lanchang` |
-| `my-phg-lipis` | LIPIS | none |
+| `my-phg-lipis` | LIPIS | `my-phg-kuala-lipis` |
 | `my-phg-lurah-bilut` | Lurah Bilut | `my-phg-lurah-bilut` |
 | `my-phg-maran` | Maran | `my-phg-maran` |
 | `my-phg-mentakab` | Mentakab | `my-phg-mentakab` |
@@ -266,7 +266,7 @@
 | `my-phg-tioman` | Tioman | none |
 | `my-phg-unknown` | UNKNOWN | none |
 | `my-pjy-putrajaya` | PUTRAJAYA | `my-pjy-putrajaya` |
-| `my-pjy-wilayah-persekutuan-putrajaya` | WILAYAH PERSEKUTUAN PUTRAJAYA | none |
+| `my-pjy-wilayah-persekutuan-putrajaya` | WILAYAH PERSEKUTUAN PUTRAJAYA | `my-pjy-putrajaya` |
 | `my-pls---01000-kangar` | قرب حدود، 01000 Kangar | none |
 | `my-pls-arau` | Arau | `my-pls-arau` |
 | `my-pls-beseri` | Beseri | none |
@@ -322,8 +322,8 @@
 | `my-prk-batu-kurau` | Batu Kurau | `my-prk-batu-kurau` |
 | `my-prk-behrang` | Behrang | none |
 | `my-prk-behrang-stesen` | Behrang Stesen | `my-prk-behrang-stesen` |
-| `my-prk-bercham` | Bercham | none |
-| `my-prk-beruas` | Beruas | none |
+| `my-prk-bercham` | Bercham | `my-prk-ipoh` |
+| `my-prk-beruas` | Beruas | `my-prk-bruas` |
 | `my-prk-bidor` | Bidor | `my-prk-bidor` |
 | `my-prk-bota` | Bota | `my-prk-bota` |
 | `my-prk-cenderiang` | Cenderiang | `my-prk-chenderiang` |
@@ -350,7 +350,7 @@
 | `my-prk-kuala-kurau` | Kuala Kurau | `my-prk-kuala-kurau` |
 | `my-prk-kuala-sepetang` | Kuala Sepetang | `my-prk-kuala-sepetang` |
 | `my-prk-kubu-gajah-selama` | Kubu Gajah Selama | none |
-| `my-prk-lahat` | Lahat | none |
+| `my-prk-lahat` | Lahat | `my-prk-ipoh` |
 | `my-prk-lambor-kanan` | Lambor Kanan | `my-prk-lambor-kanan` |
 | `my-prk-langkap` | Langkap | `my-prk-langkap` |
 | `my-prk-larut` | Larut | none |
@@ -362,7 +362,7 @@
 | `my-prk-manong` | Manong | `my-prk-manong` |
 | `my-prk-manong-kuala-kangsar` | Manong Kuala Kangsar | none |
 | `my-prk-matang` | Matang | `my-prk-matang` |
-| `my-prk-menglembu` | Menglembu | none |
+| `my-prk-menglembu` | Menglembu | `my-prk-ipoh` |
 | `my-prk-muallim` | Muallim | none |
 | `my-prk-mukim-gerik` | Mukim Gerik | `my-prk-gerik` |
 | `my-prk-nibong-tebal` | Nibong Tebal | none |
@@ -386,7 +386,7 @@
 | `my-prk-seri-iskandar` | Seri Iskandar | `my-prk-bandar-seri-iskandar` |
 | `my-prk-seri-manjung` | Seri Manjung | `my-prk-seri-manjung` |
 | `my-prk-simpang` | Simpang | `my-prk-simpang` |
-| `my-prk-simpang-empat-semanggol` | Simpang Empat Semanggol | none |
+| `my-prk-simpang-empat-semanggol` | Simpang Empat Semanggol | `my-prk-simpang-ampat-semanggol` |
 | `my-prk-siputeh` | Siputeh | none |
 | `my-prk-sitiawan` | Sitiawan | `my-prk-sitiawan` |
 | `my-prk-slim-river` | Slim River | `my-prk-slim-river` |
@@ -405,7 +405,7 @@
 | `my-prk-tapah-road` | Tapah Road | `my-prk-tapah-road` |
 | `my-prk-teluk-intan` | Teluk Intan | `my-prk-teluk-intan` |
 | `my-prk-temoh` | Temoh | `my-prk-temoh` |
-| `my-prk-terong` | Terong | none |
+| `my-prk-terong` | Terong | `my-prk-trong` |
 | `my-prk-teronoh` | Teronoh | `my-prk-tronoh` |
 | `my-prk-tronoh` | Tronoh | `my-prk-tronoh` |
 | `my-prk-ulu-bernam` | Ulu Bernam | `my-prk-ulu-bernam` |
@@ -424,7 +424,7 @@
 | `my-sbh-bpb---sipitang` | BPB - SIPITANG | `my-sbh-sipitang` |
 | `my-sbh-keningau` | Keningau | `my-sbh-keningau` |
 | `my-sbh-kimanis-mandahan` | kimanis mandahan | none |
-| `my-sbh-kinabatangan` | Kinabatangan | none |
+| `my-sbh-kinabatangan` | Kinabatangan | `my-sbh-kota-kinabatangan` |
 | `my-sbh-kinarut` | Kinarut | none |
 | `my-sbh-kota-belud` | Kota Belud | `my-sbh-kota-belud` |
 | `my-sbh-kota-kinabalu` | Kota Kinabalu | `my-sbh-kota-kinabalu` |
@@ -454,7 +454,7 @@
 | `my-sbh-putatan` | Putatan | `my-sbh-putatan` |
 | `my-sbh-ranau` | Ranau | `my-sbh-ranau` |
 | `my-sbh-san---beluran` | SAN - BELURAN | `my-sbh-beluran` |
-| `my-sbh-san---kinabatangan` | SAN - KINABATANGAN | none |
+| `my-sbh-san---kinabatangan` | SAN - KINABATANGAN | `my-sbh-kota-kinabatangan` |
 | `my-sbh-san---sandakan` | SAN - SANDAKAN | `my-sbh-sandakan` |
 | `my-sbh-san---tongod` | SAN - TONGOD | none |
 | `my-sbh-sandakan` | Sandakan | `my-sbh-sandakan` |
@@ -532,7 +532,7 @@
 | `my-sgr-shah-alam` | Shah Alam | `my-sgr-shah-alam` |
 | `my-sgr-subang` | SUBANG | none |
 | `my-sgr-subang-jaya` | Subang Jaya | `my-sgr-subang-jaya` |
-| `my-sgr-sungai-air-tawar` | Sungai Air Tawar | none |
+| `my-sgr-sungai-air-tawar` | Sungai Air Tawar | `my-sgr-sungai-ayer-tawar` |
 | `my-sgr-sungai-besar` | Sungai Besar | `my-sgr-sungai-besar` |
 | `my-sgr-sungai-buloh` | Sungai Buloh | `my-sgr-sungai-buloh` |
 | `my-sgr-sungai-pelek` | Sungai Pelek | `my-sgr-sungai-pelek` |
@@ -544,7 +544,7 @@
 | `my-swk-asa-jaya` | ASA JAYA | `my-swk-asajaya` |
 | `my-swk-asajaya` | Asajaya | `my-swk-asajaya` |
 | `my-swk-baram` | Baram | `my-swk-baram` |
-| `my-swk-batu-niah` | Batu Niah | none |
+| `my-swk-batu-niah` | Batu Niah | `my-swk-niah` |
 | `my-swk-bau` | Bau | `my-swk-bau` |
 | `my-swk-bekenu` | Bekenu | `my-swk-bekenu` |
 | `my-swk-belaga` | Belaga | `my-swk-belaga` |
@@ -572,7 +572,7 @@
 | `my-swk-niah` | Niah | `my-swk-niah` |
 | `my-swk-padawan` | PADAWAN | none |
 | `my-swk-pusa` | PUSA | `my-swk-pusa` |
-| `my-swk-samarahan` | SAMARAHAN | none |
+| `my-swk-samarahan` | SAMARAHAN | `my-swk-kota-samarahan` |
 | `my-swk-saratok` | SARATOK | `my-swk-saratok` |
 | `my-swk-sarikei` | SARIKEI | `my-swk-sarikei` |
 | `my-swk-sebangan` | Sebangan | none |
@@ -596,13 +596,13 @@
 | `my-trg-hulu-telemong` | Hulu Telemong | none |
 | `my-trg-hulu-terengganu` | HULU TERENGGANU | none |
 | `my-trg-jerteh` | Jerteh | `my-trg-jerteh` |
-| `my-trg-kemaman` | Kemaman | none |
+| `my-trg-kemaman` | Kemaman | `my-trg-cukai` |
 | `my-trg-kemasik` | Kemasik | `my-trg-kemasek` |
 | `my-trg-kijal` | Kijal | `my-trg-kijal` |
 | `my-trg-kuala` | Kuala | none |
 | `my-trg-kuala-berang` | Kuala Berang | `my-trg-kuala-berang` |
 | `my-trg-kuala-dungun` | Kuala Dungun | `my-trg-dungun` |
-| `my-trg-kuala-kemaman` | Kuala Kemaman | none |
+| `my-trg-kuala-kemaman` | Kuala Kemaman | `my-trg-cukai` |
 | `my-trg-kuala-nerus` | Kuala Nerus | none |
 | `my-trg-kuala-terengganu` | KUALA TERENGGANU | `my-trg-kuala-terengganu` |
 | `my-trg-marang` | Marang | `my-trg-marang` |
